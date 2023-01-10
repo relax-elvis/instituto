@@ -3166,11 +3166,6 @@ textarea {
   transition: all .1s;
 }
 
-/* line 1722, app/sass/_global.scss */
-.list-hash-tag li:not(.text):hover {
-  color: #6caf2e;
-}
-
 /* line 1725, app/sass/_global.scss */
 .list-hash-tag li:not(.text):after {
   content: '|';
@@ -3190,11 +3185,6 @@ textarea {
   -webkit-transition: all .1s;
   -o-transition: all .1s;
   transition: all .1s;
-}
-
-/* line 1739, app/sass/_global.scss */
-.list-hash-tag li a:hover {
-  color: #6caf2e;
 }
 
 /* line 1746, app/sass/_global.scss */
@@ -3771,9 +3761,9 @@ textarea {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-column-gap: 40px;
-     -moz-column-gap: 40px;
-          column-gap: 40px;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
 }
 
 /* line 2160, app/sass/_global.scss */
@@ -4606,15 +4596,15 @@ body.index .in-banner:after {
 /* line 2504, app/sass/_global.scss */
 .in-banner .list-course__tab {
   margin-top: 13vh;
+  position: relative;
 }
 
-/* line 2506, app/sass/_global.scss */
+/* line 2507, app/sass/_global.scss */
 .in-banner .list-course__tab .box {
   background-color: #6CAF2E;
   display: inline-block;
   padding: 14px 46px 13px 0;
   border-radius: 0 50px 0 0;
-  position: relative;
 }
 
 /* line 2513, app/sass/_global.scss */
@@ -5393,7 +5383,7 @@ body.index .in-banner:after {
 }
 
 /* line 3096, app/sass/_global.scss */
-.in-descr .block-text input#show[type='radio']:checked ~ .descr p {
+.in-descr .block-text input#show[type='radio']:checked ~ .descr > * {
   opacity: 1;
   visibility: visible;
   font-size: 1em;
@@ -5413,7 +5403,7 @@ body.index .in-banner:after {
 }
 
 /* line 3114, app/sass/_global.scss */
-.in-descr .block-text input#hide[type='radio']:checked ~ .descr p {
+.in-descr .block-text input#hide[type='radio']:checked ~ .descr > * {
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all .3s;
@@ -5428,8 +5418,8 @@ body.index .in-banner:after {
 
 /* line 3126, app/sass/_global.scss */
 .in-descr .block-text input#hide[type='radio']:checked ~ .descr > *:first-child,
-.in-descr .block-text input#hide[type='radio']:checked ~ .descr > *:first-child + p,
-.in-descr .block-text input#hide[type='radio']:checked ~ .descr > *:first-child + p + p {
+.in-descr .block-text input#hide[type='radio']:checked ~ .descr > *:first-child + *,
+.in-descr .block-text input#hide[type='radio']:checked ~ .descr > *:first-child + * + * {
   opacity: 1;
   visibility: visible;
   font-size: 1em;
@@ -5440,7 +5430,7 @@ body.index .in-banner:after {
 }
 
 /* line 3147, app/sass/_global.scss */
-.in-descr .block-text .descr p {
+.in-descr .block-text .descr > * {
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all .3s;
@@ -5453,8 +5443,8 @@ body.index .in-banner:after {
 
 /* line 3155, app/sass/_global.scss */
 .in-descr .block-text .descr > *:first-child,
-.in-descr .block-text .descr > *:first-child + p,
-.in-descr .block-text .descr > *:first-child + p + p {
+.in-descr .block-text .descr > *:first-child + *,
+.in-descr .block-text .descr > *:first-child + * + * {
   opacity: 1;
   visibility: visible;
   font-size: 1em;
