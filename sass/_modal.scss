@@ -1,0 +1,23 @@
+.newsletter {
+	display: none;
+	&.active {
+		display: block;
+		position: fixed;
+		z-index: 12;
+	}
+	// .newsletter {
+	// 	.in-form-g__block {
+	// 		align-items: center;
+	// 	}
+	// 	.in-quote__title {
+	// 		color: $white;
+	// 	}
+	// 	form {
+	// 		max-width: 365px;
+
+	// 		button[type="submit"] {
+	// 			width: 100%;
+	// 		}
+	// 	}
+	// }
+}

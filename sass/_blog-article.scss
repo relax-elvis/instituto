@@ -1,0 +1,49 @@
+.in-content {
+	padding-top: 90px;
+	padding-bottom: 74px;
+	background: $white;
+	article {
+		//max-width: 810px;
+		padding-left: 120px;
+		padding-right: 21px;
+
+		img.full-width {
+			margin-left: -120px;
+			margin-bottom: 59px;
+			margin-right: -21px;
+		}
+	}
+	.social-share.article {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		background: $hover-blue;
+		padding: 22px 52px 27px;
+		position: relative;
+		top: 113px;
+		max-width: 818px;
+		margin-left: 120px;
+		.max-width {
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		.text {
+			font-size: 1em;
+			font-weight: 600;
+			font-stretch: normal;
+			font-style: normal;
+			letter-spacing: normal;
+			color: $white;
+		}
+	}
+}
+.in-content + .in-comments-g {
+	padding-top: 140px;
+	.block {
+		max-width: 925px;
+    	padding-left: 117px;
+    	margin: 0;
+	}
+}

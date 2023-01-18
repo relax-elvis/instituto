@@ -1155,7 +1155,7 @@ textarea {
   font-style: normal;
   line-height: 1.25;
   letter-spacing: normal;
-  padding-right: 20px;
+  padding-right: 25px;
   padding-bottom: 25px;
   display: block;
   position: relative;
@@ -5264,6 +5264,11 @@ body.index .in-banner:after {
 }
 
 /* line 2991, app/sass/_global.scss */
+.in-nuestro__block {
+  background: #ffffff;
+}
+
+/* line 2994, app/sass/_global.scss */
 .in-nuestro a {
   text-decoration: none;
   display: block;
@@ -5272,22 +5277,22 @@ body.index .in-banner:after {
   color: #000000;
 }
 
-/* line 3014, app/sass/_global.scss */
+/* line 3018, app/sass/_global.scss */
 .in-nuestro .block-img {
   position: relative;
 }
 
-/* line 3016, app/sass/_global.scss */
+/* line 3020, app/sass/_global.scss */
 .in-nuestro .block-img img {
   width: 100%;
 }
 
-/* line 3020, app/sass/_global.scss */
+/* line 3024, app/sass/_global.scss */
 .in-nuestro .block {
   padding: 36px 38px 41px;
 }
 
-/* line 3024, app/sass/_global.scss */
+/* line 3028, app/sass/_global.scss */
 .in-nuestro h5 {
   font-size: 1.5em;
   font-weight: 600;
@@ -5296,27 +5301,32 @@ body.index .in-banner:after {
   color: #000000;
 }
 
-/* line 3032, app/sass/_global.scss */
+/* line 3036, app/sass/_global.scss */
 .in-nuestro .list-hash-tag li {
   font-size: 1em;
   font-weight: normal;
   line-height: 1.86;
 }
 
-/* line 3036, app/sass/_global.scss */
+/* line 3040, app/sass/_global.scss */
 .in-nuestro .list-hash-tag li:after {
   color: #000000;
 }
 
-/* line 3039, app/sass/_global.scss */
+/* line 3043, app/sass/_global.scss */
 .in-nuestro .list-hash-tag li span,
 .in-nuestro .list-hash-tag li a {
   color: #000000;
   display: inline-block;
 }
 
+/* line 3049, app/sass/_global.scss */
+.in-nuestro .list-hash-tag li a:hover {
+  color: #6caf2e;
+}
+
 /* in-partner inherit style from in-quote */
-/* line 3050, app/sass/_global.scss */
+/* line 3059, app/sass/_global.scss */
 .in-partner .partner-list {
   display: -webkit-box;
   display: -webkit-flex;
@@ -5328,7 +5338,7 @@ body.index .in-banner:after {
   padding-left: 35px;
 }
 
-/* line 3054, app/sass/_global.scss */
+/* line 3063, app/sass/_global.scss */
 .in-partner .partner-list .item {
   padding-left: 15px;
   padding-right: 15px;
@@ -5338,18 +5348,18 @@ body.index .in-banner:after {
   margin-bottom: 13px;
 }
 
-/* line 3061, app/sass/_global.scss */
+/* line 3070, app/sass/_global.scss */
 .in-partner .partner-list .item div {
   border: 1px solid #e5e5e5;
   background: #ffffff;
 }
 
-/* line 3069, app/sass/_global.scss */
+/* line 3078, app/sass/_global.scss */
 .in-descr {
   background: #f5f5f5;
 }
 
-/* line 3071, app/sass/_global.scss */
+/* line 3080, app/sass/_global.scss */
 .in-descr .block-text {
   display: -webkit-box;
   display: -webkit-flex;
@@ -5363,7 +5373,7 @@ body.index .in-banner:after {
   padding-left: 35px;
 }
 
-/* line 3075, app/sass/_global.scss */
+/* line 3084, app/sass/_global.scss */
 .in-descr .block-text label[for='show'] {
   color: #6caf2e;
   cursor: pointer;
@@ -5373,7 +5383,7 @@ body.index .in-banner:after {
   letter-spacing: normal;
 }
 
-/* line 3083, app/sass/_global.scss */
+/* line 3092, app/sass/_global.scss */
 .in-descr .block-text label[for='show'] {
   color: #6caf2e;
   cursor: pointer;
@@ -5383,17 +5393,17 @@ body.index .in-banner:after {
   letter-spacing: normal;
 }
 
-/* line 3091, app/sass/_global.scss */
+/* line 3100, app/sass/_global.scss */
 .in-descr .block-text input#show[type='radio']:checked ~ label[for='show'] {
   display: none;
 }
 
-/* line 3094, app/sass/_global.scss */
+/* line 3103, app/sass/_global.scss */
 .in-descr .block-text input#show[type='radio']:checked ~ label[for='hide'] {
   display: block;
 }
 
-/* line 3097, app/sass/_global.scss */
+/* line 3106, app/sass/_global.scss */
 .in-descr .block-text input#show[type='radio']:checked ~ .descr > * {
   opacity: 1;
   visibility: visible;
@@ -5402,7 +5412,7 @@ body.index .in-banner:after {
   margin-bottom: 17px;
 }
 
-/* line 3104, app/sass/_global.scss */
+/* line 3113, app/sass/_global.scss */
 .in-descr .block-text label[for='hide'] {
   color: #6caf2e;
   cursor: pointer;
@@ -5413,7 +5423,7 @@ body.index .in-banner:after {
   display: none;
 }
 
-/* line 3115, app/sass/_global.scss */
+/* line 3124, app/sass/_global.scss */
 .in-descr .block-text input#hide[type='radio']:checked ~ .descr > * {
   opacity: 0;
   visibility: hidden;
@@ -5427,7 +5437,7 @@ body.index .in-banner:after {
   z-index: -1;
 }
 
-/* line 3127, app/sass/_global.scss */
+/* line 3136, app/sass/_global.scss */
 .in-descr .block-text input#hide[type='radio']:checked ~ .descr > *:first-child,
 .in-descr .block-text input#hide[type='radio']:checked ~ .descr > *:first-child + *,
 .in-descr .block-text input#hide[type='radio']:checked ~ .descr > *:first-child + * + * {
@@ -5440,7 +5450,7 @@ body.index .in-banner:after {
   z-index: 1;
 }
 
-/* line 3148, app/sass/_global.scss */
+/* line 3157, app/sass/_global.scss */
 .in-descr .block-text .descr > * {
   opacity: 0;
   visibility: hidden;
@@ -5452,7 +5462,7 @@ body.index .in-banner:after {
   margin-bottom: 0;
 }
 
-/* line 3156, app/sass/_global.scss */
+/* line 3165, app/sass/_global.scss */
 .in-descr .block-text .descr > *:first-child,
 .in-descr .block-text .descr > *:first-child + *,
 .in-descr .block-text .descr > *:first-child + * + * {
@@ -5463,26 +5473,26 @@ body.index .in-banner:after {
   margin-bottom: 17px;
 }
 
-/* line 3169, app/sass/_global.scss */
+/* line 3178, app/sass/_global.scss */
 .footer {
   background: #000000;
 }
 
-/* line 3171, app/sass/_global.scss */
+/* line 3180, app/sass/_global.scss */
 .footer__top {
   background: #000F47;
   padding-top: 110px;
   padding-bottom: 130px;
 }
 
-/* line 3175, app/sass/_global.scss */
+/* line 3184, app/sass/_global.scss */
 .footer__top a {
   -webkit-transition: all .3s;
   -o-transition: all .3s;
   transition: all .3s;
 }
 
-/* line 3178, app/sass/_global.scss */
+/* line 3187, app/sass/_global.scss */
 .footer__top h5 {
   font-size: 1.25em;
   font-weight: 600;
@@ -5494,12 +5504,12 @@ body.index .in-banner:after {
   margin-bottom: 7px;
 }
 
-/* line 3192, app/sass/_global.scss */
+/* line 3201, app/sass/_global.scss */
 .footer__top .txt_tel:hover, .footer__top .txt_mail:hover {
   color: #6caf2e;
 }
 
-/* line 3196, app/sass/_global.scss */
+/* line 3205, app/sass/_global.scss */
 .footer__top .txt_tel {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -5512,7 +5522,7 @@ body.index .in-banner:after {
   margin-top: 30px;
 }
 
-/* line 3207, app/sass/_global.scss */
+/* line 3216, app/sass/_global.scss */
 .footer__top .txt_mail {
   font-style: normal;
   font-weight: 400;
@@ -5524,7 +5534,7 @@ body.index .in-banner:after {
   display: inline-block;
 }
 
-/* line 3218, app/sass/_global.scss */
+/* line 3227, app/sass/_global.scss */
 .footer__top .logotype {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
@@ -5535,13 +5545,13 @@ body.index .in-banner:after {
   color: #cccccc;
 }
 
-/* line 3226, app/sass/_global.scss */
+/* line 3235, app/sass/_global.scss */
 .footer__top .logotype img {
   margin-bottom: 15px;
   display: block;
 }
 
-/* line 3231, app/sass/_global.scss */
+/* line 3240, app/sass/_global.scss */
 .footer__top .contacto {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
@@ -5552,7 +5562,7 @@ body.index .in-banner:after {
   color: #cccccc;
 }
 
-/* line 3239, app/sass/_global.scss */
+/* line 3248, app/sass/_global.scss */
 .footer__top .contacto a {
   display: block;
   text-decoration: none;
@@ -5560,64 +5570,64 @@ body.index .in-banner:after {
   margin-top: 27px;
 }
 
-/* line 3244, app/sass/_global.scss */
+/* line 3253, app/sass/_global.scss */
 .footer__top .contacto a:hover {
   color: #6caf2e;
 }
 
-/* line 3247, app/sass/_global.scss */
+/* line 3256, app/sass/_global.scss */
 .footer__top .contacto a:last-child {
   margin-top: 0;
 }
 
-/* line 3251, app/sass/_global.scss */
+/* line 3260, app/sass/_global.scss */
 .footer__top .contacto p {
   color: #ffffff;
   margin: 10px 0 0;
 }
 
-/* line 3258, app/sass/_global.scss */
+/* line 3267, app/sass/_global.scss */
 .footer__top .course-list ul li {
   font-family: "Open Sans", sans-serif;
   line-height: 2;
 }
 
-/* line 3261, app/sass/_global.scss */
+/* line 3270, app/sass/_global.scss */
 .footer__top .course-list ul li a {
   text-decoration: none;
   color: #ffffff;
   font-weight: 200;
 }
 
-/* line 3265, app/sass/_global.scss */
+/* line 3274, app/sass/_global.scss */
 .footer__top .course-list ul li a:hover {
   color: #6caf2e;
 }
 
-/* line 3273, app/sass/_global.scss */
+/* line 3282, app/sass/_global.scss */
 .footer__top .alumnos h5 {
   font-size: 20px;
   line-height: 26px;
   font-weight: 400;
 }
 
-/* line 3278, app/sass/_global.scss */
+/* line 3287, app/sass/_global.scss */
 .footer__top .alumnos h5 strong,
 .footer__top .alumnos h5 b {
   font-weight: 600;
 }
 
-/* line 3283, app/sass/_global.scss */
+/* line 3292, app/sass/_global.scss */
 .footer__top .alumnos .subscribe-button {
   margin: 30px 0;
 }
 
-/* line 3288, app/sass/_global.scss */
+/* line 3297, app/sass/_global.scss */
 .footer .campus-online {
   margin-bottom: 30px;
 }
 
-/* line 3290, app/sass/_global.scss */
+/* line 3299, app/sass/_global.scss */
 .footer .campus-online a {
   font-size: 1.25em;
   font-weight: 600;
@@ -5629,7 +5639,7 @@ body.index .in-banner:after {
   transition: all .1s;
 }
 
-/* line 3297, app/sass/_global.scss */
+/* line 3306, app/sass/_global.scss */
 .footer .campus-online a:hover {
   color: #6caf2e;
   -webkit-transition: all .1s;
@@ -5637,12 +5647,12 @@ body.index .in-banner:after {
   transition: all .1s;
 }
 
-/* line 3300, app/sass/_global.scss */
+/* line 3309, app/sass/_global.scss */
 .footer .campus-online a:hover .icon-target-window {
   background-position: -94px -25px;
 }
 
-/* line 3306, app/sass/_global.scss */
+/* line 3315, app/sass/_global.scss */
 .footer .social {
   font-size: 1.25em;
   font-weight: 600;
@@ -5654,7 +5664,7 @@ body.index .in-banner:after {
   margin-bottom: 35px;
 }
 
-/* line 3315, app/sass/_global.scss */
+/* line 3324, app/sass/_global.scss */
 .footer .social .socila-button {
   margin-top: 15px;
   -webkit-box-pack: center;
@@ -5663,19 +5673,19 @@ body.index .in-banner:after {
           justify-content: center;
 }
 
-/* line 3320, app/sass/_global.scss */
+/* line 3329, app/sass/_global.scss */
 .footer__bottom {
   text-align: center;
   padding-top: 19px;
   padding-bottom: 24px;
 }
 
-/* line 3325, app/sass/_global.scss */
+/* line 3334, app/sass/_global.scss */
 .footer__bottom ul li {
   color: #ffffff;
 }
 
-/* line 3327, app/sass/_global.scss */
+/* line 3336, app/sass/_global.scss */
 .footer__bottom ul li a {
   color: #ffffff;
 }
@@ -6170,17 +6180,24 @@ a:hover {
   top: -6px;
 }
 
-/* line 434, app/sass/main.scss */
+@media (max-width: 767px) {
+  /* line 435, app/sass/main.scss */
+  .form .check-rule input[type='checkbox']:checked ~ label:after {
+    top: 0;
+  }
+}
+
+/* line 440, app/sass/main.scss */
 .form .check-rule input[type='checkbox']:checked ~ label:before {
   border: 1px solid transparent !important;
 }
 
-/* line 438, app/sass/main.scss */
+/* line 444, app/sass/main.scss */
 .form .check-rule input[type='checkbox']:checked ~ label a {
   color: #000000 !important;
 }
 
-/* line 442, app/sass/main.scss */
+/* line 448, app/sass/main.scss */
 .form .check-rule input[type=checkbox] {
   opacity: 0;
   visibility: hidden;
@@ -6188,23 +6205,23 @@ a:hover {
   z-index: -1;
 }
 
-/* line 449, app/sass/main.scss */
+/* line 455, app/sass/main.scss */
 .form .check-rule input[type=checkbox].error ~ label::before {
   border: 1px solid #b21c1c;
 }
 
-/* line 455, app/sass/main.scss */
+/* line 461, app/sass/main.scss */
 .form .check-rule label {
   position: relative;
   padding-left: 24px;
 }
 
-/* line 459, app/sass/main.scss */
+/* line 465, app/sass/main.scss */
 .form .check-rule label.error:before {
   border: 1px solid #b21c1c;
 }
 
-/* line 463, app/sass/main.scss */
+/* line 469, app/sass/main.scss */
 .form .check-rule label:before {
   content: '';
   width: 14px;
@@ -6216,28 +6233,28 @@ a:hover {
   top: 2px;
 }
 
-/* line 473, app/sass/main.scss */
+/* line 479, app/sass/main.scss */
 .form .check-rule label:hover {
   cursor: pointer;
 }
 
-/* line 475, app/sass/main.scss */
+/* line 481, app/sass/main.scss */
 .form .check-rule label:hover a {
   text-decoration: underline;
 }
 
-/* line 481, app/sass/main.scss */
+/* line 487, app/sass/main.scss */
 .form .block-btn {
   text-align: right;
   margin-top: 28px;
 }
 
-/* line 484, app/sass/main.scss */
+/* line 490, app/sass/main.scss */
 .form .block-btn .btn-green {
   background: #6caf2e;
 }
 
-/* line 488, app/sass/main.scss */
+/* line 494, app/sass/main.scss */
 .form button[type="submit"] {
   background: #000000;
   padding: 17px 25px;
@@ -6256,12 +6273,12 @@ a:hover {
   transition: all .3s;
 }
 
-/* line 502, app/sass/main.scss */
+/* line 508, app/sass/main.scss */
 .form button[type="submit"]:hover {
   background: #00145E;
 }
 
-/* line 508, app/sass/main.scss */
+/* line 514, app/sass/main.scss */
 .form-success,
 .form-error {
   font-family: "Open Sans", sans-serif;
@@ -6294,20 +6311,20 @@ a:hover {
           align-items: center;
 }
 
-/* line 526, app/sass/main.scss */
+/* line 532, app/sass/main.scss */
 .form-success .icon,
 .form-error .icon {
   margin-bottom: 7px;
 }
 
-/* line 529, app/sass/main.scss */
+/* line 535, app/sass/main.scss */
 .form-success__title,
 .form-error__title {
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 533, app/sass/main.scss */
+/* line 539, app/sass/main.scss */
 .form-success p,
 .form-error p {
   margin: 0;
@@ -6315,7 +6332,7 @@ a:hover {
   font-weight: 400;
 }
 
-/* line 540, app/sass/main.scss */
+/* line 546, app/sass/main.scss */
 .form-error,
 div.form-error {
   background: transparent;
@@ -6327,13 +6344,13 @@ div.form-error {
   text-align: center;
 }
 
-/* line 549, app/sass/main.scss */
+/* line 555, app/sass/main.scss */
 .form-error p,
 div.form-error p {
   margin-bottom: 20px;
 }
 
-/* line 552, app/sass/main.scss */
+/* line 558, app/sass/main.scss */
 .form-error .btn,
 div.form-error .btn {
   padding-left: 30px;
@@ -7876,19 +7893,19 @@ body.not-found .header__top {
 }
 
 /* /modal */
-/* line 596, app/sass/main.scss */
+/* line 602, app/sass/main.scss */
 .cc_dialog.interstitial {
   max-width: 715px !important;
   margin: 0 auto;
   padding: 3rem;
 }
 
-/* line 601, app/sass/main.scss */
+/* line 607, app/sass/main.scss */
 .cc_dialog.interstitial .cc_dialog_text br {
   display: none;
 }
 
-/* line 604, app/sass/main.scss */
+/* line 610, app/sass/main.scss */
 .cc_dialog.interstitial .cc_dialog_text .cc_b_cp {
   border: none;
   background: none;
@@ -9385,6 +9402,10 @@ body.not-found .header__top {
     font-weight: 400;
     margin-bottom: 8px;
     text-align: left;
+  }
+  /* line 154, app/sass/_mobile-menu.scss */
+  .header .mobile-block .menu-block .contact .phone a {
+    color: #ffffff;
   }
   @-webkit-keyframes showMobileMenu {
     0% {
@@ -12344,38 +12365,38 @@ body.in-marketing-digital .in-banner {
   /* line 3491, app/sass/_media.scss */
   .in-search-panel .bg {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-    -webkit-flex-direction: column-reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding: 24px 22px;
   }
   /* line 3495, app/sass/_media.scss */
   .in-search-panel .block-filter {
     padding-right: 0;
-    margin-top: 24px;
   }
-  /* line 3498, app/sass/_media.scss */
+  /* line 3497, app/sass/_media.scss */
   .in-search-panel .block-filter > div {
     width: 100%;
     padding-left: 0;
   }
-  /* line 3502, app/sass/_media.scss */
+  /* line 3501, app/sass/_media.scss */
   .in-search-panel .block-filter .item {
     margin-bottom: 10px;
   }
-  /* line 3504, app/sass/_media.scss */
+  /* line 3503, app/sass/_media.scss */
   .in-search-panel .block-filter .item:last-child {
     margin-bottom: 0;
   }
-  /* line 3508, app/sass/_media.scss */
+  /* line 3507, app/sass/_media.scss */
   .in-search-panel .block-filter select {
     width: 65%;
     margin-left: auto;
   }
-  /* line 3513, app/sass/_media.scss */
+  /* line 3512, app/sass/_media.scss */
   .in-search-panel .block-search {
     max-width: 100%;
+    margin-top: 24px;
     margin-left: 0;
     width: 100%;
   }

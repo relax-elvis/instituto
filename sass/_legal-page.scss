@@ -1,0 +1,54 @@
+body.legal {
+	background: $white;
+	.in-banner {
+		padding-bottom: 70px;
+	}
+	.in-content {
+		padding-top: 0;
+		padding-bottom: 154px;
+		margin-top: -38px;
+		background: transparent;
+		position: relative;
+		.container {
+			padding-top: 104px;
+			background: $white;
+			max-width: calc(1346px - 30px);
+		}
+		article {
+			font-family: 'Open Sans';
+			font-size: 20px;
+			font-weight: normal;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: 1.5;
+			letter-spacing: normal;
+			color: $black;
+			padding: 0;
+			max-width: 868px;
+			margin-left: auto;
+			margin-right: auto;
+			h3 {
+				font-size: 20px;
+				font-weight: 700;
+				color: $black;
+			}
+			p {
+				font-size: 20px;
+				font-weight: normal;
+				font-stretch: normal;
+				font-style: normal;
+				line-height: 1.5;
+				letter-spacing: normal;
+				color: $black;
+			}
+			ul {
+				&.list {
+					margin-bottom: 37px;
+				}
+				li {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}

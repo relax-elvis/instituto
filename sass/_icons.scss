@@ -1,0 +1,155 @@
+.icon {
+	display: inline-block;
+	position: relative;
+}
+.icon-phone {
+	display: inline-block;
+	background: url(../assets/icon/imported-layers.png) no-repeat center center;
+	width: 11px;
+	height: 11px;
+	margin-right: 8px;
+}
+.icon-target-window{
+	background: url(../assets/icon/external-link-symbol-sprite.png) no-repeat -25px -25px;
+	width: 19px;
+	height: 16px;
+	display: inline-block;
+	margin-left: 5px;
+	&:hover {
+		background-position: -94px -25px;
+	}
+}
+.icon-arrow-right {
+	background: $hover-link url(../assets/arrow-right-white.png) no-repeat 61% 53%;
+	display: block;
+	width: 60px;
+	height: 36px;
+	border-radius: 100px 0 0 0;
+	&.black {
+		background-color: transparent;
+		background: url(../assets/icon/shape-copy.png) no-repeat center center;
+		width: 23px;
+		height: 11px;
+	}
+}
+
+.icon-emprendedor {
+	background: url(../assets/icon/icono-emprendedor-copy.png) no-repeat center center;
+}
+.icon-profesionales {
+	background: url(../assets/icon/icono-profesionales.png) no-repeat center center;
+}
+.icon-alumno {
+	background: url(../assets/icon/icono-alumno.png) no-repeat center center;
+}
+
+.icon-blueprint {
+	background: url(../assets/icon/logo-blueprint.png) no-repeat center center;
+	width: 52px;
+	height: 58px;
+	background-size: auto 100%;
+}
+.icon-blueprint-big {
+	background: url(../assets/icon/logo-blueprint-156.png) no-repeat center center;
+	width: 156px;
+	height: 156px;
+}
+.icon-hastag {
+	background: url(../assets/sprite/spritex1.png) no-repeat center center / 535px;
+	background-position: -408px -91px;
+	width: 52px;
+	height: 52px;
+}
+.icon-analitics {
+	background: url(../assets/icon/logo-analitics.png) no-repeat center center;
+	width: 52px;
+	height: 52px;
+	background-size: auto 100%;
+}
+.icon-analitics-ads {
+	background-image: url(../assets/sprite/spritex1.png);
+	background-position: -527px 344px;
+	width: 52px;
+	height: 52px;
+}
+.icon-analitics-ads-big {
+	background: url(../assets/icon/logo-adwords-156.png) no-repeat center center / 100%;
+	width: 156px;
+	height: 156px;
+	border-radius: 100%;
+}
+.icon-analitics-big {
+	background: url(../assets/icon/logo-analitics-156.jpg) no-repeat center center;
+	width: 156px;
+	height: 156px;
+	border-radius: 100%;
+}
+.icon-adwords {
+	background: url(../assets/icon/logo-adwords.png) no-repeat center center;
+	width: 52px;
+	height: 52px;
+}
+.icon-adwords-big {
+	background: url(../assets/icon/logo-adwords-156.png) no-repeat center center;
+	width: 156px;
+	height: 156px;
+	border-radius: 100%;
+}
+.icon-thun-big {
+	background: url(../assets/icon/logo-thun-156.png) no-repeat center center;
+	width: 156px;
+	height: 156px;
+	border-radius: 100%;
+}
+
+/* contact-page */
+.icon-map {
+	background-image: url(../assets/sprite/spritex1.png);
+	background-position: -123px 200px;
+	width: 39px;
+	height: 49px;
+}
+.icon-phone-big {
+	background-image: url(../assets/sprite/spritex1.png);
+	background-position: -254px 266px;
+	width: 42px;
+	height: 41px;
+}
+.icon-time-work {
+	background-image: url(../assets/sprite/spritex1.png);
+	background-position: -284px 387px;
+	width: 44px;
+	height: 45px;
+}
+.icon-success {
+	background-image: url(../assets/sprite/spritex1.png);
+	background-position: -372px 264px;
+	width: 36px;
+	height: 36px;
+	&.white {
+		background-position: -350px 200px;
+	}
+}
+.icon-error {
+	background-image: url(../assets/sprite/spritex1.png);
+	background-position: -460px 111px;
+	width: 38px;
+	height: 34px;
+	&.white {
+		background-position: -402px 111px;
+	}
+}
+/* breadcrump */
+.arrow-prev {
+	background-image: url(../assets/sprite/spritex1.png);
+	background-position: -234px 316px;
+	transform: rotate(180deg);
+	width: 23px;
+	height: 11px;
+}
+.arrow-next {
+	background-image: url(../assets/sprite/spritex1.png);
+	background-position: -234px 315px;
+	width: 23px;
+	height: 11px;
+}

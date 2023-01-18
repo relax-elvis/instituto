@@ -1,0 +1,142 @@
+.in-somos-instituto-mark {
+	.footer {
+		margin-top: -101px;
+		&__top {
+			// padding-top: 205px;
+		}
+	}
+}
+
+.in-video {
+	&__block {
+		position: relative;
+		text-align: center;
+		width: 100%;
+		.btn-play-video {
+			position: absolute;
+			top: 50%;
+			left: 0;
+			right: 0;
+			transform: translate3d(0, -50%, 0);
+		}
+	}
+}
+
+.in-culidad {
+	background: $bg-gray;
+	padding-top: 79px;
+	padding-bottom: 79px;
+	.align-items-center {
+		display: flex;
+		justify-content: center;
+	}
+	span {
+		font-size: 2.5em;
+		font-weight: 300;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.13;
+		letter-spacing: normal;
+		color: $black;
+		display: inline-block;
+		margin-left: 47px;
+	}
+}
+
+.in-statistic-count {
+	background: $bg-blue;
+	padding-top: 120px;
+	padding-bottom: 149px;
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: -15px;
+		margin-right: -15px;
+		.item {
+			color: $white;
+			width: 33.333333333%;
+			padding: 0 15px;
+			text-align: center;
+			.block {
+				display: inline-block;
+				text-align: left;
+			}
+			span {
+				font-size: 8.5em;
+				font-weight: bold;
+				font-stretch: normal;
+				font-style: normal;
+				line-height: normal;
+				letter-spacing: normal;
+			}
+			p:last-child {
+				margin-bottom: 0;
+			}
+			p {
+				font-size: 1.875em;
+				font-weight: 300;
+				font-stretch: normal;
+				font-style: normal;
+				line-height: 1.07;
+				letter-spacing: normal;
+				color: $white;
+			}
+		}
+	}
+}
+
+.in-nuestra {
+	overflow: hidden;
+	.container {
+		position: relative;
+		padding-top: 78px;
+		padding-bottom: 78px;
+		&:before,
+		&:after {
+			content: '';
+			display: block;
+			width: calc(100% - 30px);
+			margin: 0 auto;
+			height: 100%;
+			background: $bg-blue;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			z-index: 1;
+		}
+		&:after {
+			width: 100%;
+			left: auto;
+			right: -50%;
+		}
+	}
+	.row {
+		position: relative;
+		z-index: 2;
+	}
+	.img-responsive {
+		position: relative;
+		left: -153px;
+	}
+	&__title {
+		font-size: 30px;
+		font-weight: 600;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.07;
+		letter-spacing: normal;
+		color: $white;
+		margin-bottom: 40px;
+	}
+	p {
+		font-size: 1.25em;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.45;
+		letter-spacing: normal;
+		color: $white;
+	}
+}
+

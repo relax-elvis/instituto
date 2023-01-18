@@ -1,0 +1,140 @@
+.in-sidebar {
+	max-width: 324px;
+	padding: 0 7px;
+	float: right;
+	overflow: hidden;
+	clear: both;
+
+	.block-search {
+		margin-bottom: 43px;
+		.search-form {
+			input {
+				width: 100%;
+				padding-right: 75px;
+			}
+		}
+	}
+
+	.title {
+		font-family: $montserrat;
+		font-size: 1.5em;
+		font-weight: 600;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.25;
+		letter-spacing: normal;
+		margin-bottom: 25px;
+		
+	}
+
+	.in-tags-g {
+		margin-bottom: 35px;
+	}
+
+	.relacionadas {
+		color: $black;
+		margin-bottom: 20px;
+		&__title {
+			font-family: $montserrat;
+			font-size: 1.25em;
+			font-weight: 600;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: 1.25;
+			letter-spacing: normal;
+			margin-bottom: 15px;
+			transition: all .3s;
+		}
+
+		.list {
+			> li {
+				margin-bottom: 30px;
+				padding-bottom: 35px;
+				border-bottom: 1px solid #D4D4D4;
+			}
+			a {
+				color: $black;
+				&:hover {
+					.relacionadas__title {
+						color: $hover-link;
+					}
+				}
+			}
+		}
+
+		.list-hash-tag {
+			li:not(.text):after {
+				color: $black;
+			}
+		}
+	}
+
+	.in-cursos__item {
+		&:hover {
+			background: $white;
+			color: $black;
+			box-shadow: 1px 1px 4px 3px rgba(0, 0, 0, 0.13);
+			.analitica {
+				background-position: -197px -195px;
+			}
+			.facebook {
+				background-position: -283px -111px;
+			}
+			h3,
+			p {
+				color: $black;
+			}
+			.icon-arrow-right {
+				background-image: url(../assets/icon/shape-copy.png);
+			}
+		}
+	}
+
+	.in-subscribe-bar {
+		background: $hover-link;
+		border-radius: 0 0 42px 0;
+		color: $white;
+		padding: 34px 26px 50px;
+		margin-bottom: 45px;
+		&__title {
+			font-size: 1.875em;
+			font-weight: 500;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: 1.17;
+			letter-spacing: normal;
+			color: $white;
+			margin-bottom: 20px;
+		}
+		p {
+			color: $white;
+			font-size: 1em;
+			font-weight: normal;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: normal;
+			letter-spacing: normal;
+			color: $white;
+			margin-bottom: 30px;
+		}
+		.block-btn {
+			button,
+			input {
+				width: 100%;
+			}
+		}
+	}
+	.in-cursos {
+		&__item {
+			padding: 30px 26px 16px;
+			margin-bottom: 24px;
+			position: relative;
+			&:last-child {
+				margin-bottom: 0;
+			}
+			.block > div:last-child {
+				text-align: right;
+			}
+		}
+	}
+}

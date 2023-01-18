@@ -1,0 +1,95 @@
+.in-form-g {
+	&.modal {
+		&:after {
+			content: '';
+			display: block;
+			width: 100%;
+			height: 100%;
+			background: rgba(0, 0, 0, .54);
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			z-index: 8;
+		}
+		padding-top: 0;
+		input[name="subscribe-modal"] {
+			&:checked {
+				& + label ~ div {
+					display: none;
+				}
+				& + label {
+					display: none;
+				}
+			}
+		}
+		.modal-close {
+			position: absolute;
+			top: 15px;
+			right: 40px;
+			z-index: 10;
+			font-size: 31px;
+			color: $white;
+			cursor: pointer;
+		}
+		.container {
+			max-width: 1092px;
+			margin: 0 auto;
+			position: fixed;
+			top: 50%;
+			left: 0;
+			right: 0;
+			transform: translateY(-50%);
+			z-index: 9;
+		}
+		.in-form-g__block {
+			margin-top: 0;
+			&:after {
+				content: none;
+			}
+		}
+		.in-quote__title {
+			color: $white;
+			padding-top: 0;
+			padding-bottom: 0;
+			font-size: 45px;
+			span + span {
+				font-size: 20px;
+			}
+		}
+		.after-line-g {
+			&:after {
+				background: $white;
+				width: 1px;
+				right: 0;
+			}
+		}
+		.form {
+			margin-left: 25px;
+			max-width: 362px;
+			.block-btn {
+				button,
+				input[type="submit"] {
+					width: 100%;
+				}
+			}
+		}
+		.form-success,
+		.form-error {
+			text-align: center;
+			background: transparent;
+			padding: 0;
+			margin-bottom: 0;
+			border: none;
+			border-radius: 0;
+			color: $white;
+			text-align: center;
+			p {
+				color: $white;
+				margin-bottom: 0;
+				// font-size: 1.25em;
+			}
+		}
+	}
+}
