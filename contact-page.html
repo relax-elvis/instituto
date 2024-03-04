@@ -229,7 +229,7 @@
 						<source media="(min-width: 1025px)" srcset="assets/contact-page/mapa-contacto.jpg">
 						<img class="map-image" src="assets/contact-page/mapa-contacto.jpg">
 					</picture>-->
-					<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d5986.6623823617565!2d2.1598251998629077!3d41.388613382701976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgoogle%20map%20Consell%20de%20Cent%2C%20295%2C%203%C2%BA%202%C2%AA%2C%2008007%20Barcelona!5e0!3m2!1sru!2sua!4v1606323652118!5m2!1sru!2sua" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.3330789939164!2d2.159975615425829!3d41.38857237926409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a28daa910e99%3A0x3267e82fab6f7287!2zQy4gZGVsIENvbnNlbGwgZGUgQ2VudCwgMjk1LCAzwrogMsKqLCAwODAwNyBCYXJjZWxvbmEsINCY0YHQv9Cw0L3QuNGP!5e0!3m2!1sru!2sua!4v1630520288299!5m2!1sru!2sua" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 				</div>
 				<div class="container">
 					<div class="row">
@@ -239,12 +239,7 @@
 									Contacto 
 								</span>
 							</div>
-						</div>
-						<div class="col-6 col-lg-12">
 							<form action="" method="POST" class="form text-black">
-								<div class="form-title">
-									¡Escríbenos!
-								</div>
 								<div class="form-group">
 									<div class="field">
 										<input type="text" name="name" placeholder="Nombre (Requerido)" />
@@ -280,16 +275,82 @@
 							</form>
 							<!-- form-success -->
 							<div style="display: none" class="form-result form-success">
+								<i class="icon icon-success"></i>
+								<div class="form-success__title">
+									Su mensaje se ha enviado con éxito.
+								</div>
+								<p>
+									En breve nos pordemos en contacto contigo.
+								</p>
+							</div>
+							<!-- /form-success -->
+							<!-- form-error -->
+							<div style="display: none" class="form-result form-error">
+								<i class="icon icon-error white"></i>
+								<div class="form-error__title">
+									Ups algo salió mal.
+								</div>
+								<p>
+									Intentalo de nuevo más tarde.
+								</p>
+								<div class="block-btn">
+									<a href="#" class="btn">
+										Volver ha intentar
+									</a>
+								</div>
+							</div>
+							<!-- /form-error -->
+						</div>
+						<!--<div class="col-6 col-lg-12">-->
+							<!--<form style="display: none" action="" method="POST" class="form text-black">
+								<div class="form-title">
+									¡Escríbenos!
+								</div>
+								<div class="form-group">
+									<div class="field">
+										<input type="text" name="name" placeholder="Nombre (Requerido)" />
+									</div>
+									<div class="field">
+										<input type="text" name="email" placeholder="E-mail (Requerido)" />
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="field">
+										<input type="tel" name="phone" placeholder="Teléfono (Requerido)" />
+									</div>
+									<div class="field">
+										<input type="text" name="contacto" placeholder="Hora de contacto" />
+									</div>
+								</div>
+								<div class="field">
+									<textarea placeholder="Comentarios" name="comments"></textarea>
+								</div>
+								<div class="check-rule">
+									<div>
+										<input type="checkbox" name="privadad" hidden id="privadad">
+										<label for="privadad">He leído y acepto las <a href="">condiciones de privacidad</a></label>
+									</div>
+									<div>
+										<input type="checkbox" name="newsletter" hidden id="newsletter">
+										<label for="newsletter">Deseo suscribirme a la newsletter</label>
+									</div>
+								</div>
+								<div class="block-btn">
+									<button type="submit" class="btn-green">Enviar</button>
+								</div>
+							</form>-->
+							<!-- form-success -->
+							<!--<div style="display: none" class="form-result form-success">
 								<div>
 									<i class="icon icon-success"></i>
 								</div>
 								<p class="text">
 									<strong>Su mensaje se ha enviado con éxito.</strong><br>En breve nos pordemos en contacto contigo.
 								</p>
-							</div>
+							</div>-->
 							<!-- /form-success -->
 							<!-- form-error -->
-							<div style="display: none" class="form-result form-error">
+							<!--<div style="display: none" class="form-result form-error">
 								<div>
 									<i class="icon icon-error"></i>
 								</div>
@@ -301,9 +362,9 @@
 										Volver ha intentar
 									</a>
 								</div>
-							</div>
+							</div>-->
 							<!-- /form-error -->
-						</div>
+						<!--</div>-->
 					</div>
 				</div>
 			</section>

@@ -235,6 +235,12 @@
 		<main>
 			<!-- in-banner -->
 			<section class="in-banner">
+				<picture>
+					<source media="(max-width:760px)" data-srcset="assets/banner/mobile/institutomarketing-home.jpg">
+					<source media="(max-width:990px)" data-srcset="assets/banner/table/institutomarketing-home.jpg">
+					<source media="(min-width:991px)" data-srcset="assets/banner/institutomarketing-home.jpg">
+					<img class="img-responsive lazyload" data-src="assets/banner/institutomarketing-home.jpg">
+				</picture>
 				<div class="container">
 					<div class="row">
 						<div class="col-8 col-lg-12">
@@ -246,15 +252,6 @@
 							</span>
 						</div>
 						<div class="col-12">
-							<!-- list-course__tab -->
-							<div class="list-course__tab">
-								<div class="box">
-									<div class="item">
-										PRÓXIMAS CONVOCATORIAS
-									</div>
-								</div>
-							</div>
-							<!-- /list-course__tab -->
 							<div class="list-course">
 								<a href="#" class="item">
 									<!-- block -->
@@ -345,7 +342,7 @@
 			<!-- in-masers -->
 			<section class="in-masers">
 				<div class="container">
-					<!-- <div class="row">
+					<div class="row">
 						<div class="col-12 section-title">
 							<h2>
 								Másters
@@ -354,15 +351,15 @@
 								Presenciales y online en directo
 							</h4>
 						</div>
-					</div> -->
+					</div>
 					<div class="row">
 						<!-- col -->
 						<div class="col-6 col-sm-12">
 							<a href="#d" class="in-masers__item">
 								<picture>
-									<source media="(max-width: 760px)" srcset="assets/masers/mobile/master-marketing.jpg">
-									<source media="(max-width: 990px)" srcset="assets/masers/table/master-marketing.jpg">
-									<source media="(min-width: 991px)" srcset="assets/masers/master-marketing.png">
+									<source media="(max-width: 760px)" data-srcset="assets/masers/mobile/master-marketing.jpg">
+									<source media="(max-width: 990px)" data-srcset="assets/masers/table/master-marketing.jpg">
+									<source media="(min-width: 991px)" data-srcset="assets/masers/master-marketing.png">
 									<img class="img-responsive lazyload" data-src="assets/masers/master-marketing.png" alt="">
 								</picture>
 								<div class="block">
@@ -390,9 +387,9 @@
 						<div class="col-6 col-sm-12">
 							<a href="#d" class="in-masers__item">
 								<picture>
-									<source media="(max-width: 760px)" srcset="assets/masers/mobile/master-traffic-management.jpg">
-									<source media="(max-width: 990px)" srcset="assets/masers/table/master-traffic-management.jpg">
-									<source media="(min-width: 991px)" srcset="assets/masers/master-traffic-management.png">
+									<source media="(max-width: 760px)" data-srcset="assets/masers/mobile/master-traffic-management.jpg">
+									<source media="(max-width: 990px)" data-srcset="assets/masers/table/master-traffic-management.jpg">
+									<source media="(min-width: 991px)" data-srcset="assets/masers/master-traffic-management.png">
 									<img class="img-responsive lazyload" data-src="assets/masers/master-traffic-management.png" alt="">
 								</picture>
 								<div class="block">
@@ -423,28 +420,22 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-12 section-title">
-							<h2 class="title-icon d-flex">
-								<i class="icon icon-hastag"></i>
-								<div>
-									Clases <strong>presenciales</strong> y <strong>online</strong> en directo
-								</div> 
+							<h2>
+								Cursos
 							</h2>
-							<!-- <h4 class="section-title__sub">
-							</h4> -->
+							<h4 class="section-title__sub">
+								Presenciales y online en directo
+							</h4>
 						</div>
 					</div>
 					<div class="row">
 						<!-- col -->
 						<div class="col-4 col-sm-12">
 							<a href="" class="in-cursos__item">
-								<div class="in-cursos__item_title">
-									<i class="icon analitica"></i>
-									<span>
-										Curso
-									</span>
-								</div>
+								<i class="icon analitica"></i>
 								<div class="block">
 									<h3>
+										Curso<br>
 										Analítica Web
 									</h3>
 									<p>
@@ -458,12 +449,10 @@
 						<!-- col -->
 						<div class="col-4 col-sm-12">
 							<a href="" class="in-cursos__item">
-								<div class="in-cursos__item_title">
-									<i class="icon ads"></i>
-									<span>Curso</span>
-								</div>
+								<i class="icon ads"></i>
 								<div class="block">
 									<h3>
+										Curso<br>
 										Google Ads
 									</h3>
 									<p>
@@ -477,12 +466,10 @@
 						<!-- col -->
 						<div class="col-4 col-sm-12">
 							<a href="" class="in-cursos__item">
-								<div class="in-cursos__item_title">
-									<i class="icon wordpress"></i>
-									<span>Curso</span>
-								</div>
+								<i class="icon wordpress"></i>
 								<div class="block">
 									<h3>
+										Curso<br>
 										WordPress
 									</h3>
 									<p>
@@ -496,13 +483,10 @@
 						<!-- col -->
 						<div class="col-4 col-sm-12">
 							<a href="" class="in-cursos__item">
-								<div class="in-cursos__item_title">
-									<i class="icon seo"></i>
-									<span>Curso</span>
-								</div>
+								<i class="icon seo"></i>
 								<div class="block">
 									<h3>
-										Posicionamiento SEO
+										Curso<br> Posicionamiento SEO
 									</h3>
 									<p>
 										Desarrolla estrategias Onsite, On Page y Off page y mejora el posicionamiento orgánico de tu página web.
@@ -515,12 +499,10 @@
 						<!-- col -->
 						<div class="col-4 col-sm-12">
 							<a href="" class="in-cursos__item">
-								<div class="in-cursos__item_title">
-									<i class="icon community"></i>
-									<span>Curso</span>
-								</div>
+								<i class="icon community"></i>
 								<div class="block">
 									<h3>
+										Curso<br>
 										Community Manager
 									</h3>
 									<p>
@@ -534,12 +516,10 @@
 						<!-- col -->
 						<div class="col-4 col-sm-12">
 							<a href="" class="in-cursos__item">
-								<div class="in-cursos__item_title">
-									<i class="icon facebook"></i>
-									<span>Curso</span>
-								</div>
+								<i class="icon facebook"></i>
 								<div class="block">
 									<h3>
+										Curso<br>
 										Facebook e Instagram Ads
 									</h3>
 									<p>
@@ -557,9 +537,9 @@
 			<!-- in-instituto -->
 			<section class="in-instituto">
 				<picture>
-					<source media="(max-width:399px)" srcset="assets/mobile/imagen-clase-instituto.jpg">
-					<source media="(max-width:990px)" srcset="assets/imagen-clase-instituto.png">
-					<source media="(min-width:991px)" srcset="assets/imagen-clase-instituto.png">
+					<source media="(max-width:399px)" data-srcset="assets/mobile/imagen-clase-instituto.jpg">
+					<source media="(max-width:990px)" data-srcset="assets/imagen-clase-instituto.png">
+					<source media="(min-width:991px)" data-srcset="assets/imagen-clase-instituto.png">
 					<img class="in-instituto__photo" src="assets/imagen-clase-instituto.png">
 				</picture>
 				<div class="container">
@@ -697,8 +677,8 @@
 											</div>
 										</li>
 									</ol>
-									<a class="carousel__prev"></a>
-									<a class="carousel__next"></a>
+									<a class="carousel__prev" href="javascript:void(0);"></a>
+									<a class="carousel__next" href="javascript:void(0);"></a>
 								</div>
 							</div>
 							<!-- /carousel -->
@@ -728,18 +708,15 @@
 					<div class="row">
 						<!-- col -->
 						<div class="col-6 col-sm-12">
-							<!-- in-nuestro__block -->
-							<div class="in-nuestro__block">
-								<a href="">
-									<div class="block-img">
-										<picture>
-											<source media="(max-width:760px)" srcset="assets/nuestro-blog/table/blog-googleads.jpg">
-											<source media="(max-width:990px)" srcset="assets/nuestro-blog/table/blog-googleads.jpg">
-											<source media="(min-width:991px)" srcset="assets/nuestro-blog/blog-googleads.jpg">
-											<img class="img-responsive lazyload" data-src="assets/nuestro-blog/blog-googleads.jpg">
-										</picture>
-									</div>
-								</a>
+							<a href="">
+								<div class="block-img">
+									<picture>
+										<source media="(max-width:760px)" data-srcset="assets/nuestro-blog/table/blog-googleads.jpg">
+										<source media="(max-width:990px)" data-srcset="assets/nuestro-blog/table/blog-googleads.jpg">
+										<source media="(min-width:991px)" data-srcset="assets/nuestro-blog/blog-googleads.jpg">
+										<img class="img-responsive lazyload" data-src="assets/nuestro-blog/blog-googleads.jpg">
+									</picture>
+								</div>
 								<div class="block">
 									<h5>
 										Estrategias en Google Ads: ¿Qué son los modelos de atribución y para qué sirven?
@@ -752,28 +729,24 @@
 											24 de julio, 2020
 										</li>
 										<li>
-											<a href="">Google Ads</a>
+											Google Ads
 										</li>
 									</ul>
 								</div>
-							</div>
-							<!-- /in-nuestro__block -->
+							</a>
 						</div>
 						<!-- /col -->
 						<!-- col -->
 						<div class="col-6 col-sm-12">
-							<!-- in-nuestro__block -->
-							<div class="in-nuestro__block">
-								<a href="">
-									<div class="block-img">
-										<picture>
-											<source media="(max-width:760px)" srcset="assets/nuestro-blog/table/blog-facebook.jpg">
-											<source media="(max-width:990px)" srcset="assets/nuestro-blog/table/blog-facebook.jpg">
-											<source media="(min-width:991px)" srcset="assets/nuestro-blog/blog-facebook.jpg">
-											<img class="img-responsive lazyload" data-src="assets/nuestro-blog/blog-facebook.jpg">
-										</picture>
-									</div>
-								</a>
+							<a href="">
+								<div class="block-img">
+									<picture>
+										<source media="(max-width:760px)" data-srcset="assets/nuestro-blog/table/blog-facebook.jpg">
+										<source media="(max-width:990px)" data-srcset="assets/nuestro-blog/table/blog-facebook.jpg">
+										<source media="(min-width:991px)" data-srcset="assets/nuestro-blog/blog-facebook.jpg">
+										<img class="img-responsive lazyload" data-src="assets/nuestro-blog/blog-facebook.jpg">
+									</picture>
+								</div>
 								<div class="block">
 									<h5>
 										Estrategias en Google Ads: ¿Qué son los modelos de atribución y para qué sirven?
@@ -786,12 +759,11 @@
 											24 de julio, 2020
 										</li>
 										<li>
-											<a href="">Google Ads</a>
+											Google Ads
 										</li>
 									</ul>
 								</div>
-							</div>
-							<!-- /in-nuestro__block -->
+							</a>
 						</div>
 						<!-- /col -->
 					</div>
@@ -811,9 +783,9 @@
 							<div class="before-line-g">
 								<div class="partner-list">
 									<picture>
-										<source media="(max-width: 760px)" srcset="assets/partner/logos-mobile.png">
-										<source media="(max-width: 990px)" srcset="assets/partner/logos-tablet.png">
-										<source media="(min-width: 991px)" srcset="assets/partner/logos.png">
+										<source media="(max-width: 760px)" data-srcset="assets/partner/logos-mobile.png">
+										<source media="(max-width: 990px)" data-srcset="assets/partner/logos-tablet.png">
+										<source media="(min-width: 991px)" data-srcset="assets/partner/logos.png">
 										<img class="img-responsive lazyload" data-src="assets/partner/logos.png" alt="">
 									</picture>
 									<!--<div class="item">
@@ -868,10 +840,8 @@
 						<div class="col-7 col-lg-12">
 							<div class="before-line-g">
 								<div class="block-text">
-									<input type="radio" id="show" hidden name="show-hide-text">
 									<label for="show">Leer más</label>
-									<input type="radio" id="hide" hidden name="show-hide-text">
-									<label for="hide">Leer menos</label>
+									<input type="checkbox" id="show" hidden name="show-text">
 									<div class="descr">
 										<p>
 												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit lacinia ligula, sed laoreet justo aliquet sed. Vivamus erat metus, vestibulum vel sem in, euismod malesuada eros. Phasellus maximus, dolor mattis pretium tempus, diam lacus vehicula est, sit amet aliquam felis arcu eu dui. Pellentesque imperdiet, enim non bibendum placerat, est nisl viverra orci, nec suscipit justo enim vel diam. Curabitur egestas euismod rhoncus. Nulla sodales vulputate tortor eget faucibus. Pellentesque ac pulvinar nunc. Etiam consectetur, ligula quis suscipit malesuada, odio arcu imperdiet dolor, ac accumsan enim purus in massa. Mauris tristique tortor vitae laoreet hendrerit. Vivamus hendrerit est nec massa euismod, ut varius est sagittis.
@@ -910,27 +880,24 @@
 						<!-- col -->
 						<div class="col-3 col-lg-6 col-sm-12 logotype">
 							<img class="lazyload" data-src="assets/footer/logo.png">
-
-							<a class="txt_tel" href="tel:(+34) 93 541 68 02">(+34) 93 541 68 02</a>
-							<a class="txt_mail" href="mailto:info@institutomarketing.es">info@institutomarketing.es</a>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ante mauris, luctus eu purus vel, malesuada viverra urna.
 						</div>
 						<!-- /col -->
 						<!-- col -->
 						<div class="col-3 col-lg-6 col-sm-12 contacto">
 							<h5>
-								Ubicación
+								Contacto
 							</h5>
+							De Lunes a Jueves de 09:00 a 18:00 y Viernes de 09:00 a 15:00
 							<a href="">Consell de Cent, 295, 3º 2ª, 08007 Barcelona, España</a>
-
-							<p>
-								Lunes a Jueves de 09:00 a 18:00 Viernes de 09:00 a 15:00
-							</p>
+							<a href="tel:(+34) 93 541 68 02">(+34) 93 541 68 02</a>
+							<a href="mailto:info@institutomarketing.es">info@institutomarketing.es</a>
 						</div>
 						<!-- /col -->
 						<!-- col -->
 						<div class="col-3 col-lg-6 col-sm-12 course-list">
 							<h5>
-								Formación
+								Los cursos
 							</h5>
 							<ul>
 								<li>
@@ -974,17 +941,13 @@
 						<!-- col -->
 						<div class="col-3 col-lg-6 col-sm-12 alumnos">
 							<h5>
-								<strong>Apúntate</strong> para recibir las últimas noticias y artículos en tu bandeja de entrada
+								Alumnos
 							</h5>
-							<!-- <div class="campus-online">
+							<div class="campus-online">
 								<a href="">Campus online <i class="icon-target-window"></i></a>
-							</div> -->
-							<div class="subscribe-button">
-								<form action="" method="post">
-									<input type="submit" value="Suscríbete a nuestra news">
-								</form>
 							</div>
 							<div class="social">
+								Síguenos
 								<ul class="socila-button">
 									<li>
 										<a class="link instagram"></a>
@@ -1002,6 +965,11 @@
 										<a class="link linkedin"></a>
 									</li>
 								</ul>
+							</div>
+							<div class="subscribe-button">
+								<form action="" method="post">
+									<input type="submit" value="Suscríbete a nuestra news">
+								</form>
 							</div>
 						</div>
 						<!-- /col -->
@@ -1028,8 +996,71 @@
 			<!-- footer__bottom -->
 		</footer>
 		<!-- end footer -->
+		<div class="newsletter">
+			<section class="in-form-g modal">
+				<div class="container">
+					<input type="checkbox" hidden="" name="subscribe-modal" id="subscribe-modal">
+					<label for="subscribe-modal" class="modal-close">x</label>
+					<div class="row align-items-center in-form-g__block">
+						<div class="col-5 col-sm-12 after-line-g">
+							<div class="in-quote__title">
+								<span>
+									¡Suscríbete<br>
+									a nuestra<br>
+									<strong>News!</strong>
+								</span>
+								<span>
+									Apúntate a nuestro boletín<br> mensual para recibir las<br> últimas noticias y artículos<br>  en tu bandeja de entrada.
+								</span>
+							</div>
+						</div>
+						<div class="col-7 col-sm-12">
+							<form action="" method="POST" class="form">
+								<div class="field">
+									<input type="text" name="name" placeholder="Nombre (Requerido)">
+								</div>
+								<div class="field">
+									<input type="text" name="email" placeholder="E-mail (Requerido)">
+								</div>
+								<div class="check-rule">
+									<div>
+										<input type="checkbox" name="privadad" hidden="" id="privadad">
+										<label for="privadad">He leído y acepto las <a href="">condiciones de privacidad</a></label>
+									</div>
+								</div>
+								<div class="block-btn">
+									<button type="submit">Solicitar información</button>
+								</div>
+							</form>
+							<div style="display: none" class="form-success">
+								<div>
+									<i class="icon icon-success white"></i>
+								</div>
+								<p class="text">
+									<strong>¡Enhorabuena!<br> Gracias por suscribirte a nuestra news.</strong>
+								</p>
+							</div>
+							<div style="display: none;" class="form-error">
+								<div>
+									<i class="icon icon-error white"></i>
+								</div>
+								<p class="text">
+									<strong>Ups algo salió mal.</strong><br> Intentalo de nuevo más tarde.
+								</p>
+								<div class="block-btn">
+									<a href="#" class="btn">
+										Volver ha intentar
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
 		<script src="js/lazyload.js"></script>
 		<script src="js/header.js"></script>
 		<script src="js/slider.js"></script>
+		<script src="js/common.js"></script>
 	</body>
 </html>
