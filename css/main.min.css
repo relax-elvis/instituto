@@ -3815,7 +3815,6 @@ textarea {
 /* /in-banner right block info */
 /* line 2208, app/sass/_global.scss */
 .section-title {
-  font-size: 1.875em;
   font-weight: 600;
   line-height: 1.07;
   color: #000000;
@@ -5447,26 +5446,48 @@ body.index .in-banner:after {
   letter-spacing: normal;
 }
 
-/* line 3182, app/sass/_global.scss */
+/* line 3161, app/sass/_global.scss */
+.in-descr .block-text input[type='checkbox']:checked + .descr {
+  max-height: 100%;
+}
+
+/* line 3164, app/sass/_global.scss */
+.in-descr .block-text .descr {
+  max-height: 140px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+/* line 3168, app/sass/_global.scss */
+.in-descr .block-text .descr > div,
+.in-descr .block-text .descr .description,
+.in-descr .block-text .descr p {
+  font-size: 1em;
+  line-height: 1.63;
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+
+/* line 3194, app/sass/_global.scss */
 .footer {
   background: #000000;
 }
 
-/* line 3184, app/sass/_global.scss */
+/* line 3196, app/sass/_global.scss */
 .footer__top {
   background: #333333;
   padding-top: 110px;
   padding-bottom: 130px;
 }
 
-/* line 3188, app/sass/_global.scss */
+/* line 3200, app/sass/_global.scss */
 .footer__top a {
   -webkit-transition: all .3s;
   -o-transition: all .3s;
   transition: all .3s;
 }
 
-/* line 3191, app/sass/_global.scss */
+/* line 3203, app/sass/_global.scss */
 .footer__top h5 {
   font-size: 1.25em;
   font-weight: 600;
@@ -5478,7 +5499,7 @@ body.index .in-banner:after {
   margin-bottom: 7px;
 }
 
-/* line 3201, app/sass/_global.scss */
+/* line 3213, app/sass/_global.scss */
 .footer__top .logotype {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
@@ -5489,13 +5510,13 @@ body.index .in-banner:after {
   color: #cccccc;
 }
 
-/* line 3209, app/sass/_global.scss */
+/* line 3221, app/sass/_global.scss */
 .footer__top .logotype img {
   margin-bottom: 15px;
   display: block;
 }
 
-/* line 3214, app/sass/_global.scss */
+/* line 3226, app/sass/_global.scss */
 .footer__top .contacto {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
@@ -5506,7 +5527,7 @@ body.index .in-banner:after {
   color: #cccccc;
 }
 
-/* line 3222, app/sass/_global.scss */
+/* line 3234, app/sass/_global.scss */
 .footer__top .contacto a {
   display: block;
   text-decoration: underline;
@@ -5514,35 +5535,35 @@ body.index .in-banner:after {
   margin-top: 27px;
 }
 
-/* line 3227, app/sass/_global.scss */
+/* line 3239, app/sass/_global.scss */
 .footer__top .contacto a:hover {
   color: #6caf2e;
 }
 
-/* line 3237, app/sass/_global.scss */
+/* line 3249, app/sass/_global.scss */
 .footer__top .course-list ul li {
   font-family: "Open Sans", sans-serif;
   line-height: 2;
 }
 
-/* line 3240, app/sass/_global.scss */
+/* line 3252, app/sass/_global.scss */
 .footer__top .course-list ul li a {
   text-decoration: underline;
   color: #ffffff;
   font-weight: 200;
 }
 
-/* line 3244, app/sass/_global.scss */
+/* line 3256, app/sass/_global.scss */
 .footer__top .course-list ul li a:hover {
   color: #6caf2e;
 }
 
-/* line 3252, app/sass/_global.scss */
+/* line 3264, app/sass/_global.scss */
 .footer .campus-online {
   margin-bottom: 30px;
 }
 
-/* line 3254, app/sass/_global.scss */
+/* line 3266, app/sass/_global.scss */
 .footer .campus-online a {
   font-size: 1.25em;
   font-weight: 600;
@@ -5554,7 +5575,7 @@ body.index .in-banner:after {
   transition: all .1s;
 }
 
-/* line 3261, app/sass/_global.scss */
+/* line 3273, app/sass/_global.scss */
 .footer .campus-online a:hover {
   color: #6caf2e;
   -webkit-transition: all .1s;
@@ -5562,12 +5583,12 @@ body.index .in-banner:after {
   transition: all .1s;
 }
 
-/* line 3264, app/sass/_global.scss */
+/* line 3276, app/sass/_global.scss */
 .footer .campus-online a:hover .icon-target-window {
   background-position: -94px -25px;
 }
 
-/* line 3270, app/sass/_global.scss */
+/* line 3282, app/sass/_global.scss */
 .footer .social {
   font-size: 1.25em;
   font-weight: 600;
@@ -5579,24 +5600,24 @@ body.index .in-banner:after {
   margin-bottom: 35px;
 }
 
-/* line 3279, app/sass/_global.scss */
+/* line 3291, app/sass/_global.scss */
 .footer .social .socila-button {
   margin-top: 15px;
 }
 
-/* line 3283, app/sass/_global.scss */
+/* line 3295, app/sass/_global.scss */
 .footer__bottom {
   text-align: center;
   padding-top: 19px;
   padding-bottom: 24px;
 }
 
-/* line 3288, app/sass/_global.scss */
+/* line 3300, app/sass/_global.scss */
 .footer__bottom ul li {
   color: #ffffff;
 }
 
-/* line 3290, app/sass/_global.scss */
+/* line 3302, app/sass/_global.scss */
 .footer__bottom ul li a {
   color: #ffffff;
 }
@@ -5796,23 +5817,25 @@ article table tr td {
 }
 
 /* line 158, app/sass/main.scss */
+.descr > div,
+.descr .description,
 .descr p {
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
 }
 
-/* line 164, app/sass/main.scss */
+/* line 166, app/sass/main.scss */
 .descr strong {
   font-weight: 700;
 }
 
-/* line 167, app/sass/main.scss */
+/* line 169, app/sass/main.scss */
 .descr p + blockquote.line {
   margin-top: 79px;
 }
 
-/* line 170, app/sass/main.scss */
+/* line 172, app/sass/main.scss */
 .descr ul.list,
 .descr ul {
   margin-bottom: 54px;
@@ -5820,7 +5843,7 @@ article table tr td {
   line-height: 24px;
 }
 
-/* line 175, app/sass/main.scss */
+/* line 177, app/sass/main.scss */
 .descr ul.list li,
 .descr ul li {
   padding-left: 22px;
@@ -5828,19 +5851,19 @@ article table tr td {
   margin-bottom: 10px;
 }
 
-/* line 176, app/sass/main.scss */
+/* line 178, app/sass/main.scss */
 .descr ul.list li:last-child,
 .descr ul li:last-child {
   margin-bottom: 0;
 }
 
-/* line 182, app/sass/main.scss */
+/* line 184, app/sass/main.scss */
 .descr ul.list li::marker,
 .descr ul li::marker {
   content: none;
 }
 
-/* line 185, app/sass/main.scss */
+/* line 187, app/sass/main.scss */
 .descr ul.list li:before,
 .descr ul li:before {
   content: '';
@@ -5854,24 +5877,24 @@ article table tr td {
   background: #6caf2e;
 }
 
-/* line 198, app/sass/main.scss */
+/* line 200, app/sass/main.scss */
 .descr table {
   border: solid 1px #c3c3c3;
 }
 
-/* line 201, app/sass/main.scss */
+/* line 203, app/sass/main.scss */
 .descr table tr td {
   border: solid 1px #c3c3c3;
   padding: 5px 10px;
 }
 
-/* line 209, app/sass/main.scss */
+/* line 211, app/sass/main.scss */
 blockquote {
   font-style: italic;
   margin-bottom: 32px;
 }
 
-/* line 212, app/sass/main.scss */
+/* line 214, app/sass/main.scss */
 blockquote.line {
   position: relative;
   margin-left: 42px;
@@ -5879,7 +5902,7 @@ blockquote.line {
   margin-top: 40px;
 }
 
-/* line 217, app/sass/main.scss */
+/* line 219, app/sass/main.scss */
 blockquote.line:before {
   content: '';
   display: block;
@@ -5892,14 +5915,14 @@ blockquote.line:before {
   bottom: 0;
 }
 
-/* line 231, app/sass/main.scss */
+/* line 233, app/sass/main.scss */
 .subtitle {
   font-size: 20px;
   font-weight: 300;
   line-height: 1.25;
 }
 
-/* line 237, app/sass/main.scss */
+/* line 239, app/sass/main.scss */
 .description,
 p {
   font-family: "Open Sans", sans-serif;
@@ -5913,7 +5936,7 @@ p {
   margin-bottom: 35px;
 }
 
-/* line 248, app/sass/main.scss */
+/* line 250, app/sass/main.scss */
 .description b,
 .description strong,
 p b,
@@ -5921,7 +5944,7 @@ p strong {
   font-weight: 700;
 }
 
-/* line 254, app/sass/main.scss */
+/* line 256, app/sass/main.scss */
 a {
   -webkit-transition: all .3s;
   -o-transition: all .3s;
@@ -5930,22 +5953,22 @@ a {
   text-decoration: none;
 }
 
-/* line 258, app/sass/main.scss */
+/* line 260, app/sass/main.scss */
 a:hover {
   color: #6caf2e;
 }
 
-/* line 263, app/sass/main.scss */
+/* line 265, app/sass/main.scss */
 .form.text-black .check-rule {
   color: #000000;
 }
 
-/* line 265, app/sass/main.scss */
+/* line 267, app/sass/main.scss */
 .form.text-black .check-rule a {
   color: #000000;
 }
 
-/* line 271, app/sass/main.scss */
+/* line 273, app/sass/main.scss */
 .form .form-title {
   font-size: 2.81em;
   font-weight: 600;
@@ -5957,17 +5980,17 @@ a:hover {
   margin-bottom: 30px;
 }
 
-/* line 282, app/sass/main.scss */
+/* line 284, app/sass/main.scss */
 .form label.error {
   color: #b21c1c;
 }
 
-/* line 284, app/sass/main.scss */
+/* line 286, app/sass/main.scss */
 .form label.error a {
   color: #b21c1c !important;
 }
 
-/* line 289, app/sass/main.scss */
+/* line 291, app/sass/main.scss */
 .form input,
 .form textarea {
   font-family: "Open Sans", sans-serif;
@@ -5988,48 +6011,48 @@ a:hover {
   border-radius: 0;
 }
 
-/* line 306, app/sass/main.scss */
+/* line 308, app/sass/main.scss */
 .form input.error,
 .form textarea.error {
   border: solid 2px #b21c1c;
 }
 
-/* line 308, app/sass/main.scss */
+/* line 310, app/sass/main.scss */
 .form input.error + .error,
 .form textarea.error + .error {
   display: none !important;
 }
 
-/* line 313, app/sass/main.scss */
+/* line 315, app/sass/main.scss */
 .form textarea::-webkit-input-placeholder,
 .form input::-webkit-input-placeholder {
   color: #000000;
 }
 
-/* line 317, app/sass/main.scss */
+/* line 319, app/sass/main.scss */
 .form textarea::-moz-placeholder,
 .form input::-moz-placeholder {
   color: #000000;
 }
 
-/* line 321, app/sass/main.scss */
+/* line 323, app/sass/main.scss */
 .form textarea:-ms-input-placeholder,
 .form input:-ms-input-placeholder {
   color: #000000;
 }
 
-/* line 325, app/sass/main.scss */
+/* line 327, app/sass/main.scss */
 .form textarea:-moz-placeholder,
 .form input:-moz-placeholder {
   color: #000000;
 }
 
-/* line 329, app/sass/main.scss */
+/* line 331, app/sass/main.scss */
 .form input {
   height: 52px;
 }
 
-/* line 332, app/sass/main.scss */
+/* line 334, app/sass/main.scss */
 .form .form-group {
   margin-left: -12.5px;
   margin-right: -12.5px;
@@ -6042,19 +6065,19 @@ a:hover {
           flex-wrap: wrap;
 }
 
-/* line 337, app/sass/main.scss */
+/* line 339, app/sass/main.scss */
 .form .form-group .field {
   width: 50%;
   padding-left: 12.5px;
   padding-right: 12.5px;
 }
 
-/* line 343, app/sass/main.scss */
+/* line 345, app/sass/main.scss */
 .form .field {
   margin-bottom: 26px;
 }
 
-/* line 346, app/sass/main.scss */
+/* line 348, app/sass/main.scss */
 .form .check-rule {
   font-family: "Open Sans", sans-serif;
   font-size: 0.875em;
@@ -6066,27 +6089,27 @@ a:hover {
   color: #ffffff;
 }
 
-/* line 355, app/sass/main.scss */
+/* line 357, app/sass/main.scss */
 .form .check-rule a {
   color: #ffffff;
 }
 
-/* line 358, app/sass/main.scss */
+/* line 360, app/sass/main.scss */
 .form .check-rule > div:last-child {
   margin-bottom: 0;
 }
 
-/* line 361, app/sass/main.scss */
+/* line 363, app/sass/main.scss */
 .form .check-rule > div {
   margin-bottom: 8px;
 }
 
-/* line 364, app/sass/main.scss */
+/* line 366, app/sass/main.scss */
 .form .check-rule input[type='checkbox']:checked ~ label {
   color: #000000 !important;
 }
 
-/* line 365, app/sass/main.scss */
+/* line 367, app/sass/main.scss */
 .form .check-rule input[type='checkbox']:checked ~ label:after {
   content: '\2713';
   display: block;
@@ -6095,17 +6118,17 @@ a:hover {
   top: -6px;
 }
 
-/* line 372, app/sass/main.scss */
+/* line 374, app/sass/main.scss */
 .form .check-rule input[type='checkbox']:checked ~ label:before {
   border: 1px solid transparent !important;
 }
 
-/* line 376, app/sass/main.scss */
+/* line 378, app/sass/main.scss */
 .form .check-rule input[type='checkbox']:checked ~ label a {
   color: #000000 !important;
 }
 
-/* line 380, app/sass/main.scss */
+/* line 382, app/sass/main.scss */
 .form .check-rule input[type=checkbox] {
   opacity: 0;
   visibility: hidden;
@@ -6113,23 +6136,23 @@ a:hover {
   z-index: -1;
 }
 
-/* line 387, app/sass/main.scss */
+/* line 389, app/sass/main.scss */
 .form .check-rule input[type=checkbox].error ~ label::before {
   border: 1px solid #b21c1c;
 }
 
-/* line 393, app/sass/main.scss */
+/* line 395, app/sass/main.scss */
 .form .check-rule label {
   position: relative;
   padding-left: 24px;
 }
 
-/* line 397, app/sass/main.scss */
+/* line 399, app/sass/main.scss */
 .form .check-rule label.error:before {
   border: 1px solid #b21c1c;
 }
 
-/* line 401, app/sass/main.scss */
+/* line 403, app/sass/main.scss */
 .form .check-rule label:before {
   content: '';
   width: 14px;
@@ -6141,28 +6164,28 @@ a:hover {
   top: 2px;
 }
 
-/* line 411, app/sass/main.scss */
+/* line 413, app/sass/main.scss */
 .form .check-rule label:hover {
   cursor: pointer;
 }
 
-/* line 413, app/sass/main.scss */
+/* line 415, app/sass/main.scss */
 .form .check-rule label:hover a {
   text-decoration: underline;
 }
 
-/* line 419, app/sass/main.scss */
+/* line 421, app/sass/main.scss */
 .form .block-btn {
   text-align: right;
   margin-top: 28px;
 }
 
-/* line 422, app/sass/main.scss */
+/* line 424, app/sass/main.scss */
 .form .block-btn .btn-green {
   background: #6caf2e;
 }
 
-/* line 426, app/sass/main.scss */
+/* line 428, app/sass/main.scss */
 .form button[type="submit"] {
   background: #000000;
   padding: 17px 25px;
@@ -6181,12 +6204,12 @@ a:hover {
   transition: all .3s;
 }
 
-/* line 440, app/sass/main.scss */
+/* line 442, app/sass/main.scss */
 .form button[type="submit"]:hover {
   background: #00145E;
 }
 
-/* line 446, app/sass/main.scss */
+/* line 448, app/sass/main.scss */
 .form-success,
 .form-error {
   font-family: "Open Sans", sans-serif;
@@ -6219,20 +6242,20 @@ a:hover {
           align-items: center;
 }
 
-/* line 464, app/sass/main.scss */
+/* line 466, app/sass/main.scss */
 .form-success .icon,
 .form-error .icon {
   margin-bottom: 7px;
 }
 
-/* line 467, app/sass/main.scss */
+/* line 469, app/sass/main.scss */
 .form-success__title,
 .form-error__title {
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 471, app/sass/main.scss */
+/* line 473, app/sass/main.scss */
 .form-success p,
 .form-error p {
   margin: 0;
@@ -6240,7 +6263,7 @@ a:hover {
   font-weight: 400;
 }
 
-/* line 478, app/sass/main.scss */
+/* line 480, app/sass/main.scss */
 .form-error,
 div.form-error {
   background: transparent;
@@ -6252,13 +6275,13 @@ div.form-error {
   text-align: center;
 }
 
-/* line 487, app/sass/main.scss */
+/* line 489, app/sass/main.scss */
 .form-error p,
 div.form-error p {
   margin-bottom: 20px;
 }
 
-/* line 490, app/sass/main.scss */
+/* line 492, app/sass/main.scss */
 .form-error .btn,
 div.form-error .btn {
   padding-left: 30px;
@@ -7791,19 +7814,19 @@ body.not-found .header__top {
 }
 
 /* /modal */
-/* line 534, app/sass/main.scss */
+/* line 536, app/sass/main.scss */
 .cc_dialog.interstitial {
   max-width: 715px !important;
   margin: 0 auto;
   padding: 3rem;
 }
 
-/* line 539, app/sass/main.scss */
+/* line 541, app/sass/main.scss */
 .cc_dialog.interstitial .cc_dialog_text br {
   display: none;
 }
 
-/* line 542, app/sass/main.scss */
+/* line 544, app/sass/main.scss */
 .cc_dialog.interstitial .cc_dialog_text .cc_b_cp {
   border: none;
   background: none;
@@ -8688,10 +8711,6 @@ body.not-found .header__top {
     font-size: 1em;
     line-height: 26px;
   }
-  /* line 55, app/sass/_text-font-size-media-tabel.scss */
-  .section-title {
-    font-size: 1.5625em;
-  }
   /* line 57, app/sass/_text-font-size-media-tabel.scss */
   .section-title__title {
     font-size: 1.5625em;
@@ -9550,7 +9569,6 @@ body.not-found .header__top {
   }
   /* line 957, app/sass/_media.scss */
   .section-title {
-    font-size: 1.5625em;
     margin-bottom: 27px;
   }
   /* line 960, app/sass/_media.scss */
