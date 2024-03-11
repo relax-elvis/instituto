@@ -3856,7 +3856,7 @@ textarea {
       -ms-flex-align: center;
           align-items: center;
   font-family: "Open Sans", sans-serif;
-  font-size: .47em;
+  font-size: 14px;
   font-weight: 400;
   font-stretch: normal;
   font-style: normal;
@@ -4773,9 +4773,10 @@ body.index .in-banner:after {
   position: relative;
   padding-bottom: 9px;
   margin-bottom: 5px;
+  color: #ffffff;
 }
 
-/* line 2645, app/sass/_global.scss */
+/* line 2646, app/sass/_global.scss */
 .in-banner .list-course .block .title:after,
 .in-banner .list-course .block span:after {
   content: '';
@@ -4788,25 +4789,25 @@ body.index .in-banner:after {
   left: 0;
 }
 
-/* line 2658, app/sass/_global.scss */
+/* line 2659, app/sass/_global.scss */
 .in-banner .list-course .icon-arrow-right {
   position: absolute;
   bottom: 0;
   right: 0;
 }
 
-/* line 2665, app/sass/_global.scss */
+/* line 2666, app/sass/_global.scss */
 .in-banner + .in-quote {
   padding-top: 75px;
 }
 
-/* line 2668, app/sass/_global.scss */
+/* line 2669, app/sass/_global.scss */
 .in-quote {
   padding-top: 150px;
   padding-bottom: 150px;
 }
 
-/* line 2671, app/sass/_global.scss */
+/* line 2672, app/sass/_global.scss */
 .in-quote__title {
   font-weight: 300;
   line-height: 1.11;
@@ -4818,7 +4819,7 @@ body.index .in-banner:after {
   padding-bottom: 39px;
 }
 
-/* line 2691, app/sass/_global.scss */
+/* line 2692, app/sass/_global.scss */
 .in-quote__title .title {
   font-family: "Montserrat", sans-serif;
   font-size: 2.8125em;
@@ -4828,7 +4829,7 @@ body.index .in-banner:after {
   color: #000000;
 }
 
-/* line 2699, app/sass/_global.scss */
+/* line 2700, app/sass/_global.scss */
 .in-quote__title span + span,
 .in-quote__title .info {
   font-family: "Montserrat", sans-serif;
@@ -4841,7 +4842,7 @@ body.index .in-banner:after {
   margin-top: 35px;
 }
 
-/* line 2710, app/sass/_global.scss */
+/* line 2711, app/sass/_global.scss */
 .in-quote__title span + span a,
 .in-quote__title .info a {
   color: #ffffff;
@@ -4849,18 +4850,18 @@ body.index .in-banner:after {
   white-space: nowrap;
 }
 
-/* line 2716, app/sass/_global.scss */
+/* line 2717, app/sass/_global.scss */
 .in-quote__title img {
   margin-bottom: 23px;
 }
 
-/* line 2719, app/sass/_global.scss */
+/* line 2720, app/sass/_global.scss */
 .in-quote__title strong,
 .in-quote__title b {
   font-weight: 700;
 }
 
-/* line 2724, app/sass/_global.scss */
+/* line 2725, app/sass/_global.scss */
 .in-quote__descr {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
@@ -4872,31 +4873,31 @@ body.index .in-banner:after {
   margin: 0;
 }
 
-/* line 2733, app/sass/_global.scss */
+/* line 2734, app/sass/_global.scss */
 .in-quote__descr strong {
   font-weight: bold;
 }
 
-/* line 2736, app/sass/_global.scss */
+/* line 2737, app/sass/_global.scss */
 .in-quote__descr p:last-child {
   margin-bottom: 0;
 }
 
-/* line 2739, app/sass/_global.scss */
+/* line 2740, app/sass/_global.scss */
 .in-quote__descr p {
   font-size: 1em;
   line-height: 1.5;
 }
 
 /* .in-slider inherit style from .in-quote */
-/* line 2747, app/sass/_global.scss */
+/* line 2748, app/sass/_global.scss */
 .in-slider {
   background: #000f47;
   padding-top: 340px;
   padding-bottom: 150px;
 }
 
-/* line 2751, app/sass/_global.scss */
+/* line 2752, app/sass/_global.scss */
 .in-slider .in-quote__title,
 .in-slider .in-quote__descr,
 .in-slider .in-quote__title .title,
@@ -4905,31 +4906,31 @@ body.index .in-banner:after {
 }
 
 /* .block-gray inherit style from .in-quote */
-/* line 2763, app/sass/_global.scss */
+/* line 2764, app/sass/_global.scss */
 .block-gray .in-quote__title:after, .block-gray .in-quote__title:before,
 .block-gray .before-line-g:after,
 .block-gray .before-line-g:before {
   background: #E5E5E5;
 }
 
-/* line 2770, app/sass/_global.scss */
+/* line 2771, app/sass/_global.scss */
 .in-masers {
   padding-bottom: 150px;
 }
 
-/* line 2772, app/sass/_global.scss */
+/* line 2773, app/sass/_global.scss */
 .in-masers__item {
   position: relative;
   display: block;
   color: #ffffff;
 }
 
-/* line 2776, app/sass/_global.scss */
+/* line 2777, app/sass/_global.scss */
 .in-masers__item img {
   max-width: 100%;
 }
 
-/* line 2779, app/sass/_global.scss */
+/* line 2780, app/sass/_global.scss */
 .in-masers__item:after {
   content: '';
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.33)), to(#000000));
@@ -4946,14 +4947,14 @@ body.index .in-banner:after {
   z-index: 1;
 }
 
-/* line 2792, app/sass/_global.scss */
+/* line 2793, app/sass/_global.scss */
 .in-masers__item:hover:after {
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(-27%, rgba(0, 0, 0, 0)), color-stop(-25%, rgba(0, 20, 94, 0.95)));
   background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0) -27%, rgba(0, 20, 94, 0.95) -25%);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) -27%, rgba(0, 20, 94, 0.95) -25%);
 }
 
-/* line 2796, app/sass/_global.scss */
+/* line 2797, app/sass/_global.scss */
 .in-masers__item:hover .descr {
   opacity: 1;
   visibility: visible;
@@ -4961,12 +4962,12 @@ body.index .in-banner:after {
   margin-bottom: 9.5%;
 }
 
-/* line 2802, app/sass/_global.scss */
+/* line 2803, app/sass/_global.scss */
 .in-masers__item:hover .icon-arrow-right {
   background-position: -457px 316px;
 }
 
-/* line 2806, app/sass/_global.scss */
+/* line 2807, app/sass/_global.scss */
 .in-masers__item .block {
   position: absolute;
   bottom: 0;
@@ -4976,7 +4977,7 @@ body.index .in-banner:after {
   color: #ffffff;
 }
 
-/* line 2814, app/sass/_global.scss */
+/* line 2815, app/sass/_global.scss */
 .in-masers__item .title,
 .in-masers__item h3 {
   padding-bottom: 13px;
@@ -4990,7 +4991,7 @@ body.index .in-banner:after {
   color: #ffffff;
 }
 
-/* line 2825, app/sass/_global.scss */
+/* line 2826, app/sass/_global.scss */
 .in-masers__item .title:after,
 .in-masers__item h3:after {
   content: '';
@@ -5004,7 +5005,7 @@ body.index .in-banner:after {
   left: -43px;
 }
 
-/* line 2836, app/sass/_global.scss */
+/* line 2837, app/sass/_global.scss */
 .in-masers__item .descr {
   opacity: 0;
   visibility: hidden;
@@ -5024,17 +5025,17 @@ body.index .in-banner:after {
   letter-spacing: normal;
 }
 
-/* line 2853, app/sass/_global.scss */
+/* line 2854, app/sass/_global.scss */
 .in-masers__item .descr::after, .in-masers__item .descr::before {
   content: none;
 }
 
-/* line 2858, app/sass/_global.scss */
+/* line 2859, app/sass/_global.scss */
 .in-masers__item .list-hash-tag {
   min-height: 50px;
 }
 
-/* line 2861, app/sass/_global.scss */
+/* line 2862, app/sass/_global.scss */
 .in-masers__item .icon-arrow-right {
   position: absolute;
   bottom: 10px;
@@ -5048,58 +5049,58 @@ body.index .in-banner:after {
   display: inline-block;
 }
 
-/* line 2872, app/sass/_global.scss */
+/* line 2873, app/sass/_global.scss */
 .in-masers__item .icon-arrow-right:hover {
   background-position: -457px 316px;
 }
 
-/* line 2879, app/sass/_global.scss */
+/* line 2880, app/sass/_global.scss */
 .in-cursos.in-too-column .in-cursos__item {
   padding: 54px 13px 49px 52px;
 }
 
-/* line 2881, app/sass/_global.scss */
+/* line 2882, app/sass/_global.scss */
 .in-cursos.in-too-column .in-cursos__item h3 {
   margin-bottom: 22px;
 }
 
-/* line 2884, app/sass/_global.scss */
+/* line 2885, app/sass/_global.scss */
 .in-cursos.in-too-column .in-cursos__item p {
   margin-bottom: 15px;
 }
 
-/* line 2888, app/sass/_global.scss */
+/* line 2889, app/sass/_global.scss */
 .in-cursos.in-too-column .block {
   max-width: 100%;
 }
 
-/* line 2891, app/sass/_global.scss */
+/* line 2892, app/sass/_global.scss */
 .in-cursos.in-too-column .block h3 br {
   display: none;
 }
 
-/* line 2895, app/sass/_global.scss */
+/* line 2896, app/sass/_global.scss */
 .in-cursos.in-too-column .block p {
   padding-right: 40px;
 }
 
-/* line 2899, app/sass/_global.scss */
+/* line 2900, app/sass/_global.scss */
 .in-cursos.in-too-column .icon {
   margin-bottom: 14px;
 }
 
-/* line 2903, app/sass/_global.scss */
+/* line 2904, app/sass/_global.scss */
 .in-cursos {
   padding-bottom: 130px;
 }
 
-/* line 2906, app/sass/_global.scss */
+/* line 2907, app/sass/_global.scss */
 .in-cursos .row .col-4,
 .in-cursos .row .col-6 {
   margin-bottom: 26px;
 }
 
-/* line 2911, app/sass/_global.scss */
+/* line 2912, app/sass/_global.scss */
 .in-cursos__item {
   color: #000000;
   padding: 33px 13px 14px 43px;
@@ -5114,69 +5115,69 @@ body.index .in-banner:after {
   height: 100%;
 }
 
-/* line 2921, app/sass/_global.scss */
+/* line 2922, app/sass/_global.scss */
 .in-cursos__item:hover {
   background-color: #6caf2e;
   color: #ffffff;
 }
 
-/* line 2924, app/sass/_global.scss */
+/* line 2925, app/sass/_global.scss */
 .in-cursos__item:hover .icon-arrow-right {
   background-image: url(../assets/arrow-right-white.png);
 }
 
-/* line 2927, app/sass/_global.scss */
+/* line 2928, app/sass/_global.scss */
 .in-cursos__item:hover .analitica {
   background-position: -25px -283px;
 }
 
-/* line 2930, app/sass/_global.scss */
+/* line 2931, app/sass/_global.scss */
 .in-cursos__item:hover .ads {
   background-position: -111px -195px;
 }
 
-/* line 2933, app/sass/_global.scss */
+/* line 2934, app/sass/_global.scss */
 .in-cursos__item:hover .wordpress {
   background-position: -197px -110px;
 }
 
-/* line 2936, app/sass/_global.scss */
+/* line 2937, app/sass/_global.scss */
 .in-cursos__item:hover .seo {
   background-position: -111px -283px;
 }
 
-/* line 2939, app/sass/_global.scss */
+/* line 2940, app/sass/_global.scss */
 .in-cursos__item:hover .community {
   background-position: -111px -25px;
 }
 
-/* line 2942, app/sass/_global.scss */
+/* line 2943, app/sass/_global.scss */
 .in-cursos__item:hover .facebook {
   background-position: -25px -25px;
 }
 
-/* line 2945, app/sass/_global.scss */
+/* line 2946, app/sass/_global.scss */
 .in-cursos__item:hover h3,
 .in-cursos__item:hover p {
   color: #ffffff;
 }
 
-/* line 2950, app/sass/_global.scss */
+/* line 2951, app/sass/_global.scss */
 .in-cursos__item:hover .list-hash-tag li:not(.text):after {
   color: #ffffff;
 }
 
-/* line 2953, app/sass/_global.scss */
+/* line 2954, app/sass/_global.scss */
 .in-cursos__item:hover .list-hash-tag li {
   color: #ffffff;
 }
 
-/* line 2958, app/sass/_global.scss */
+/* line 2959, app/sass/_global.scss */
 .in-cursos__item .block {
   max-width: 335px;
 }
 
-/* line 2961, app/sass/_global.scss */
+/* line 2962, app/sass/_global.scss */
 .in-cursos__item .title,
 .in-cursos__item h3 {
   font-family: "Montserrat", sans-serif;
@@ -5187,7 +5188,7 @@ body.index .in-banner:after {
   padding: 0;
 }
 
-/* line 2970, app/sass/_global.scss */
+/* line 2971, app/sass/_global.scss */
 .in-cursos__item .description,
 .in-cursos__item p {
   line-height: 1.63;
@@ -5202,7 +5203,7 @@ body.index .in-banner:after {
   margin-bottom: 35px;
 }
 
-/* line 2983, app/sass/_global.scss */
+/* line 2984, app/sass/_global.scss */
 .in-cursos__item .description b,
 .in-cursos__item .description strong,
 .in-cursos__item p b,
@@ -5210,14 +5211,14 @@ body.index .in-banner:after {
   font-weight: 700;
 }
 
-/* line 2988, app/sass/_global.scss */
+/* line 2989, app/sass/_global.scss */
 .in-cursos__item .icon-arrow-right {
   position: absolute;
   bottom: 26px;
   right: 28px;
 }
 
-/* line 2995, app/sass/_global.scss */
+/* line 2996, app/sass/_global.scss */
 .in-cursos__item .icon {
   display: block;
   margin-bottom: 5px;
@@ -5228,44 +5229,44 @@ body.index .in-banner:after {
   background-image: url(../assets/icon/icon-sprite-cursos.png);
 }
 
-/* line 3004, app/sass/_global.scss */
+/* line 3005, app/sass/_global.scss */
 .in-cursos__item .analitica {
   background-position: -197px -195px;
 }
 
-/* line 3007, app/sass/_global.scss */
+/* line 3008, app/sass/_global.scss */
 .in-cursos__item .ads {
   background-position: -25px -195px;
 }
 
-/* line 3010, app/sass/_global.scss */
+/* line 3011, app/sass/_global.scss */
 .in-cursos__item .wordpress {
   background-position: -197px -25px;
 }
 
-/* line 3013, app/sass/_global.scss */
+/* line 3014, app/sass/_global.scss */
 .in-cursos__item .seo {
   background-position: -283px -197px;
 }
 
-/* line 3016, app/sass/_global.scss */
+/* line 3017, app/sass/_global.scss */
 .in-cursos__item .community {
   background-position: -282px -25px;
 }
 
-/* line 3019, app/sass/_global.scss */
+/* line 3020, app/sass/_global.scss */
 .in-cursos__item .facebook {
   background-position: -283px -111px;
 }
 
-/* line 3022, app/sass/_global.scss */
+/* line 3023, app/sass/_global.scss */
 .in-cursos__item .list-hash-tag {
   -webkit-transition: all .3s;
   -o-transition: all .3s;
   transition: all .3s;
 }
 
-/* line 3024, app/sass/_global.scss */
+/* line 3025, app/sass/_global.scss */
 .in-cursos__item .list-hash-tag li:not(.text):after {
   color: #000000;
   -webkit-transition: all .1s;
@@ -5273,36 +5274,36 @@ body.index .in-banner:after {
   transition: all .1s;
 }
 
-/* line 3032, app/sass/_global.scss */
+/* line 3033, app/sass/_global.scss */
 .in-instituto {
   position: relative;
 }
 
-/* line 3034, app/sass/_global.scss */
+/* line 3035, app/sass/_global.scss */
 .in-instituto__photo {
   width: 100%;
   margin: 0 auto;
   display: block;
 }
 
-/* line 3041, app/sass/_global.scss */
+/* line 3042, app/sass/_global.scss */
 .in-instituto .container {
   position: relative;
 }
 
-/* line 3046, app/sass/_global.scss */
+/* line 3047, app/sass/_global.scss */
 .in-nuestro {
   padding-top: 150px;
   padding-bottom: 125px;
   background: #f5f5f5;
 }
 
-/* line 3051, app/sass/_global.scss */
+/* line 3052, app/sass/_global.scss */
 .in-nuestro .container > .row:last-child > div {
   margin-bottom: 35px;
 }
 
-/* line 3055, app/sass/_global.scss */
+/* line 3056, app/sass/_global.scss */
 .in-nuestro .section-title {
   display: -webkit-box;
   display: -webkit-flex;
@@ -5318,7 +5319,7 @@ body.index .in-banner:after {
           justify-content: space-between;
 }
 
-/* line 3060, app/sass/_global.scss */
+/* line 3061, app/sass/_global.scss */
 .in-nuestro a {
   text-decoration: none;
   display: block;
@@ -5327,7 +5328,7 @@ body.index .in-banner:after {
   color: #000000;
 }
 
-/* line 3068, app/sass/_global.scss */
+/* line 3069, app/sass/_global.scss */
 .in-nuestro a:hover .block-img:after {
   content: '';
   position: absolute;
@@ -5343,22 +5344,22 @@ body.index .in-banner:after {
   background-image: linear-gradient(to bottom, rgba(238, 238, 238, 0) 1%, rgba(108, 175, 46, 0.5));
 }
 
-/* line 3083, app/sass/_global.scss */
+/* line 3084, app/sass/_global.scss */
 .in-nuestro .block-img {
   position: relative;
 }
 
-/* line 3085, app/sass/_global.scss */
+/* line 3086, app/sass/_global.scss */
 .in-nuestro .block-img img {
   width: 100%;
 }
 
-/* line 3089, app/sass/_global.scss */
+/* line 3090, app/sass/_global.scss */
 .in-nuestro .block {
   padding: 36px 38px 41px;
 }
 
-/* line 3093, app/sass/_global.scss */
+/* line 3094, app/sass/_global.scss */
 .in-nuestro .title,
 .in-nuestro h5 {
   font-family: "Montserrat", sans-serif;
@@ -5369,19 +5370,19 @@ body.index .in-banner:after {
   color: #000000;
 }
 
-/* line 3103, app/sass/_global.scss */
+/* line 3104, app/sass/_global.scss */
 .in-nuestro .list-hash-tag li {
   font-size: 1em;
   font-weight: normal;
   line-height: 1.86;
 }
 
-/* line 3107, app/sass/_global.scss */
+/* line 3108, app/sass/_global.scss */
 .in-nuestro .list-hash-tag li:after {
   color: #000000;
 }
 
-/* line 3110, app/sass/_global.scss */
+/* line 3111, app/sass/_global.scss */
 .in-nuestro .list-hash-tag li span,
 .in-nuestro .list-hash-tag li a {
   color: #000000;
@@ -5389,7 +5390,7 @@ body.index .in-banner:after {
 }
 
 /* in-partner inherit style from in-quote */
-/* line 3121, app/sass/_global.scss */
+/* line 3122, app/sass/_global.scss */
 .in-partner .partner-list {
   display: -webkit-box;
   display: -webkit-flex;
@@ -5401,7 +5402,7 @@ body.index .in-banner:after {
   padding-left: 35px;
 }
 
-/* line 3125, app/sass/_global.scss */
+/* line 3126, app/sass/_global.scss */
 .in-partner .partner-list .item {
   padding-left: 15px;
   padding-right: 15px;
@@ -5411,18 +5412,18 @@ body.index .in-banner:after {
   margin-bottom: 13px;
 }
 
-/* line 3132, app/sass/_global.scss */
+/* line 3133, app/sass/_global.scss */
 .in-partner .partner-list .item div {
   border: 1px solid #e5e5e5;
   background: #ffffff;
 }
 
-/* line 3140, app/sass/_global.scss */
+/* line 3141, app/sass/_global.scss */
 .in-descr {
   background: #f5f5f5;
 }
 
-/* line 3142, app/sass/_global.scss */
+/* line 3143, app/sass/_global.scss */
 .in-descr .block-text {
   display: -webkit-box;
   display: -webkit-flex;
@@ -5436,7 +5437,7 @@ body.index .in-banner:after {
   padding-left: 35px;
 }
 
-/* line 3146, app/sass/_global.scss */
+/* line 3147, app/sass/_global.scss */
 .in-descr .block-text label[for='show'] {
   color: #6caf2e;
   cursor: pointer;
@@ -5446,19 +5447,19 @@ body.index .in-banner:after {
   letter-spacing: normal;
 }
 
-/* line 3161, app/sass/_global.scss */
+/* line 3162, app/sass/_global.scss */
 .in-descr .block-text input[type='checkbox']:checked + .descr {
   max-height: 100%;
 }
 
-/* line 3164, app/sass/_global.scss */
+/* line 3165, app/sass/_global.scss */
 .in-descr .block-text .descr {
   max-height: 140px;
   overflow: hidden;
   margin-bottom: 15px;
 }
 
-/* line 3168, app/sass/_global.scss */
+/* line 3169, app/sass/_global.scss */
 .in-descr .block-text .descr > div,
 .in-descr .block-text .descr .description,
 .in-descr .block-text .descr p {
@@ -5468,26 +5469,26 @@ body.index .in-banner:after {
   margin-bottom: 17px;
 }
 
-/* line 3194, app/sass/_global.scss */
+/* line 3195, app/sass/_global.scss */
 .footer {
   background: #000000;
 }
 
-/* line 3196, app/sass/_global.scss */
+/* line 3197, app/sass/_global.scss */
 .footer__top {
   background: #333333;
   padding-top: 110px;
   padding-bottom: 130px;
 }
 
-/* line 3200, app/sass/_global.scss */
+/* line 3201, app/sass/_global.scss */
 .footer__top a {
   -webkit-transition: all .3s;
   -o-transition: all .3s;
   transition: all .3s;
 }
 
-/* line 3203, app/sass/_global.scss */
+/* line 3204, app/sass/_global.scss */
 .footer__top h5 {
   font-size: 1.25em;
   font-weight: 600;
@@ -5499,7 +5500,7 @@ body.index .in-banner:after {
   margin-bottom: 7px;
 }
 
-/* line 3213, app/sass/_global.scss */
+/* line 3214, app/sass/_global.scss */
 .footer__top .logotype {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
@@ -5510,13 +5511,13 @@ body.index .in-banner:after {
   color: #cccccc;
 }
 
-/* line 3221, app/sass/_global.scss */
+/* line 3222, app/sass/_global.scss */
 .footer__top .logotype img {
   margin-bottom: 15px;
   display: block;
 }
 
-/* line 3226, app/sass/_global.scss */
+/* line 3227, app/sass/_global.scss */
 .footer__top .contacto {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
@@ -5527,7 +5528,7 @@ body.index .in-banner:after {
   color: #cccccc;
 }
 
-/* line 3234, app/sass/_global.scss */
+/* line 3235, app/sass/_global.scss */
 .footer__top .contacto a {
   display: block;
   text-decoration: underline;
@@ -5535,35 +5536,35 @@ body.index .in-banner:after {
   margin-top: 27px;
 }
 
-/* line 3239, app/sass/_global.scss */
+/* line 3240, app/sass/_global.scss */
 .footer__top .contacto a:hover {
   color: #6caf2e;
 }
 
-/* line 3249, app/sass/_global.scss */
+/* line 3250, app/sass/_global.scss */
 .footer__top .course-list ul li {
   font-family: "Open Sans", sans-serif;
   line-height: 2;
 }
 
-/* line 3252, app/sass/_global.scss */
+/* line 3253, app/sass/_global.scss */
 .footer__top .course-list ul li a {
   text-decoration: underline;
   color: #ffffff;
   font-weight: 200;
 }
 
-/* line 3256, app/sass/_global.scss */
+/* line 3257, app/sass/_global.scss */
 .footer__top .course-list ul li a:hover {
   color: #6caf2e;
 }
 
-/* line 3264, app/sass/_global.scss */
+/* line 3265, app/sass/_global.scss */
 .footer .campus-online {
   margin-bottom: 30px;
 }
 
-/* line 3266, app/sass/_global.scss */
+/* line 3267, app/sass/_global.scss */
 .footer .campus-online a {
   font-size: 1.25em;
   font-weight: 600;
@@ -5575,7 +5576,7 @@ body.index .in-banner:after {
   transition: all .1s;
 }
 
-/* line 3273, app/sass/_global.scss */
+/* line 3274, app/sass/_global.scss */
 .footer .campus-online a:hover {
   color: #6caf2e;
   -webkit-transition: all .1s;
@@ -5583,12 +5584,12 @@ body.index .in-banner:after {
   transition: all .1s;
 }
 
-/* line 3276, app/sass/_global.scss */
+/* line 3277, app/sass/_global.scss */
 .footer .campus-online a:hover .icon-target-window {
   background-position: -94px -25px;
 }
 
-/* line 3282, app/sass/_global.scss */
+/* line 3283, app/sass/_global.scss */
 .footer .social {
   font-size: 1.25em;
   font-weight: 600;
@@ -5600,24 +5601,24 @@ body.index .in-banner:after {
   margin-bottom: 35px;
 }
 
-/* line 3291, app/sass/_global.scss */
+/* line 3292, app/sass/_global.scss */
 .footer .social .socila-button {
   margin-top: 15px;
 }
 
-/* line 3295, app/sass/_global.scss */
+/* line 3296, app/sass/_global.scss */
 .footer__bottom {
   text-align: center;
   padding-top: 19px;
   padding-bottom: 24px;
 }
 
-/* line 3300, app/sass/_global.scss */
+/* line 3301, app/sass/_global.scss */
 .footer__bottom ul li {
   color: #ffffff;
 }
 
-/* line 3302, app/sass/_global.scss */
+/* line 3303, app/sass/_global.scss */
 .footer__bottom ul li a {
   color: #ffffff;
 }
