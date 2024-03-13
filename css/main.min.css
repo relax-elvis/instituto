@@ -1397,12 +1397,6 @@ textarea {
 
 /* line 412, app/sass/_global.scss */
 .in-nuestro-methodo-g__list .item label {
-  font-size: 1.5em;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.25;
-  letter-spacing: normal;
   margin-bottom: 4px;
   display: block;
   position: relative;
@@ -13075,21 +13069,25 @@ body.in-marketing-digital .in-banner {
             transform: translate3d(0, -57%, 0);
   }
   /* line 4274, app/sass/_media.scss */
+  .in-nuestro-methodo-g__list .item .title {
+    font-size: 19px;
+  }
+  /* line 4277, app/sass/_media.scss */
   .in-nuestro-methodo-g__list .item .subtitle {
     font-size: 17px;
   }
-  /* line 4277, app/sass/_media.scss */
+  /* line 4280, app/sass/_media.scss */
   .in-nuestro-methodo-g__list .item input[type="checkbox"]:checked + label + .subtitle ~ .text,
   .in-nuestro-methodo-g__list .item input[type="checkbox"]:checked + label + .subtitle ~ .text * {
     font-size: 14px;
   }
-  /* line 4283, app/sass/_media.scss */
+  /* line 4286, app/sass/_media.scss */
   .in-nuestro-methodo-g__image {
     margin-top: 5px;
     margin-bottom: 55px;
     height: auto;
   }
-  /* line 4287, app/sass/_media.scss */
+  /* line 4290, app/sass/_media.scss */
   .in-nuestro-methodo-g__image img {
     position: relative;
     top: 0;
@@ -13097,24 +13095,24 @@ body.in-marketing-digital .in-banner {
     right: 0;
     width: 100%;
   }
-  /* line 4301, app/sass/_media.scss */
+  /* line 4304, app/sass/_media.scss */
   .in-profesores-g.master .in-profesores-g__list.too-column .item {
     width: 100%;
   }
-  /* line 4382, app/sass/_media.scss */
+  /* line 4385, app/sass/_media.scss */
   .in-form-g {
     background-color: #6caf2e;
   }
-  /* line 4384, app/sass/_media.scss */
+  /* line 4387, app/sass/_media.scss */
   .in-form-g__block {
     margin-top: 60px;
     border-radius: 0;
   }
-  /* line 4387, app/sass/_media.scss */
+  /* line 4390, app/sass/_media.scss */
   .in-form-g__block:after {
     width: 150%;
   }
-  /* line 4390, app/sass/_media.scss */
+  /* line 4393, app/sass/_media.scss */
   .in-form-g__block .col-5,
   .in-form-g__block .col-7 {
     max-width: 100%;
@@ -13123,52 +13121,52 @@ body.in-marketing-digital .in-banner {
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
   }
-  /* line 4396, app/sass/_media.scss */
+  /* line 4399, app/sass/_media.scss */
   .in-form-g .form {
     padding-right: 0;
     padding-left: 0;
     max-width: 100%;
   }
-  /* line 4403, app/sass/_media.scss */
+  /* line 4406, app/sass/_media.scss */
   .list-skills .title,
   .list-skills span {
     font-size: 19px;
   }
-  /* line 4439, app/sass/_media.scss */
+  /* line 4442, app/sass/_media.scss */
   .in-certificacion-off-g.one-sertificat .item .icon {
     width: 42px !important;
     height: 42px !important;
     position: absolute;
     background-size: auto 100%;
   }
-  /* line 4445, app/sass/_media.scss */
+  /* line 4448, app/sass/_media.scss */
   .in-certificacion-off-g.one-sertificat .item label {
     padding-left: 55px;
     width: 100%;
   }
-  /* line 4450, app/sass/_media.scss */
+  /* line 4453, app/sass/_media.scss */
   .in-certificacion-off-g.one-sertificat .item.no-icon label {
     padding-left: 0;
   }
 }
 
 @media all and (max-width: 400px) {
-  /* line 4459, app/sass/_media.scss */
+  /* line 4462, app/sass/_media.scss */
   .in-instituto {
     background: #000f47;
   }
-  /* line 4461, app/sass/_media.scss */
+  /* line 4464, app/sass/_media.scss */
   .in-instituto .container {
     padding-left: 0;
     padding-right: 0;
   }
-  /* line 4466, app/sass/_media.scss */
+  /* line 4469, app/sass/_media.scss */
   .in-cursos__step {
     position: relative;
     margin: 0;
     max-width: 100%;
   }
-  /* line 4472, app/sass/_media.scss */
+  /* line 4475, app/sass/_media.scss */
   body.index .in-quote.in-slider {
     padding-top: 0;
   }
